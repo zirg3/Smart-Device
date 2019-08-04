@@ -1,6 +1,9 @@
 .page-header {
   width: 100%;
+  overflow: hidden;
+  min-height: 878px;
   background-color: #1B2931;
+  background-image: url("../img/wave-background.png");
 }
 
 .page-header__wrap {
@@ -78,7 +81,7 @@
   line-height: 16px;
   text-transform: uppercase;
   border: 1px solid $white;
-  width: 180px;
+  width: 181px;
   min-height: 45px;
   padding: 14px 23px 13px 25px;
   border-radius: 8px;
@@ -100,6 +103,10 @@
 }
 
 @media (max-width: 768px) {
+  .page-header {
+    min-height: 685px;
+  }
+
   .page-header__wrap {
     padding-left: 25px;
     padding-top: 22px;
@@ -131,6 +138,10 @@
 }
 
 @media (max-width: 320px) {
+  .page-header {
+    min-height: 645px;
+  }
+
   .page-header__wrap {
     padding-left: 17px;
     padding-top: 17px;

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <header class="page-header">
+  <header class="page-header page-header__background-img">
     <div class="page-header__wrap">
       <div class="page-header__logo">
         <div class="page-header__logo-img">
@@ -35,9 +35,21 @@
         </ul>
       </div>
     </div>
-    <section>
-      
-    </section>
+    <div class="page-header__wrap-main">
+      <section class="main">
+        <h1>Печатные платы</h1>
+        <p>производство и монтаж, поставка комплектующих, блоков и модулей</p>
+        <a href="#">
+          <p>Получить бесплатную консультацию</p>
+          <p>Бесплатная консультация</p>
+        </a>
+        <picture>
+          <source media="(max-width: 320px)" srcset="img/mob-main@1x.png 1x, img/mob-main@2x.png 2x">
+          <source media="(max-width: 768px)" srcset="img/tablet-main@1x.png 1x, img/tablet-main@2x.png 2x">
+          <img src="img/desct-main@1x.png" srcset="img/desct-main@2x.png 2x" alt="Промо изображение печатной платы" width="710px;" height="655px;">
+        </picture>
+      </section>
+    </div>
   </header>
   <script src="js/picturefill.min.js"></script>
 </body>
