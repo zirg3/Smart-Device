@@ -1,0 +1,154 @@
+.advantages {
+  margin-top: 112px;
+}
+
+.advantages ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantages ul li:nth-child(1) svg {
+  position: absolute;
+  width: 30px;
+  height: 36px;
+  top: 35px;
+  fill: $blue;
+}
+
+.advantages ul li:nth-child(2) svg {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 35px;
+  fill: $blue;
+}
+
+.advantages ul li:nth-child(3) svg {
+  position: absolute;
+  width: 36px;
+  height: 31px;
+  top: 35px;
+  fill: $blue;
+}
+
+.advantages ul li:nth-child(4) svg {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 35px;
+  fill: $blue;
+}
+
+.advantages ul h2 {
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: $blue;
+  position: relative;
+}
+
+.advantages ul li {
+  border: 1px solid #EBEBEB;
+  border-left: 3px solid $blue;
+  flex-basis: calc((100% / 2) - 15px);
+  margin-bottom: 29px;
+  padding: 73px 35px 0px 43px;
+  min-height: 300px;
+  position: relative;
+  max-width: 570px;
+
+  &:hover {
+    background-color: $blue;
+    cursor: pointer;
+    color: $white;
+    border: 1px solid $blue;
+    border-left: 3px solid $blue;
+    & h2 {
+      color: $white;
+    }
+    & svg {
+      fill: $white;
+    }
+  }
+}
+
+.advantages ul p {
+  font-family: $pt-mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+
+@media (max-width: 1024px) {}
+@media (max-width: 768px) {
+  .advantages {
+    margin-top: 55px;
+  }
+
+  .advantages ul li {
+    padding: 46px 20px 29px 25px;
+    margin-bottom: 30px;
+    border-left: 2px solid #00b2ff;
+    min-height: auto;
+    word-break: break-word;
+  }
+
+  .advantages ul h2 {
+    margin-bottom: 11px;
+  }
+
+  .advantages ul li:nth-child(1) svg {
+    width: 30px;
+    height: 36px;
+    top: 24px;
+  }
+
+  .advantages ul li:nth-child(2) svg {
+    width: 32px;
+    height: 32px;
+    top: 23px;
+  }
+
+  .advantages ul li:nth-child(3) svg {
+    width: 30px;
+    height: 26px;
+    top: 26px;
+  }
+
+  .advantages ul li:nth-child(4) svg {
+    width: 32px;
+    height: 32px;
+    top: 23px;
+
+  }
+}
+@media (max-width: 320px) {
+  .advantages {
+    margin-top: 40px;
+  }
+
+  .advantages ul li {
+    flex-basis: calc(100%/1);
+    margin-bottom: 29px;
+    padding: 54px 10px 30px 25px;
+    margin-bottom: 20px;
+  }
+
+  .advantages ul h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .advantages ul li:nth-child(1) p {
+    max-width: 232px;
+  }
+
+  .advantages ul li:nth-child(3) h2 {
+    max-width: 230px;
+  }
+}
