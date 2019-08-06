@@ -9,11 +9,13 @@
 @media (max-width: 768px) {
   .wrapper {
     padding: 0 26px;
+    min-width: 500px;
   }
 }
 
 @media (max-width: 320px) {
   .wrapper {
     padding: 0 14px;
+    min-width: 320px;
   }
 }

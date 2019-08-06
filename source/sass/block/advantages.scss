@@ -58,7 +58,7 @@
   padding: 73px 35px 0px 43px;
   min-height: 300px;
   position: relative;
-  max-width: 570px;
+  max-width: 50%;
 
   &:hover {
     background-color: $blue;
@@ -92,10 +92,11 @@
 
   .advantages ul li {
     padding: 46px 20px 29px 25px;
+    margin: 0 auto;
     margin-bottom: 30px;
     border-left: 2px solid #00b2ff;
     min-height: auto;
-    word-break: break-word;
+    min-width: 250px;
   }
 
   .advantages ul h2 {

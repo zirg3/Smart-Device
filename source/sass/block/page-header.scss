@@ -105,6 +105,7 @@
 @media (max-width: 768px) {
   .page-header {
     min-height: 685px;
+    min-width: 500px;
   }
 
   .page-header__wrap {
@@ -140,6 +141,7 @@
 @media (max-width: 320px) {
   .page-header {
     min-height: 645px;
+    min-width: 320px;
   }
 
   .page-header__wrap {

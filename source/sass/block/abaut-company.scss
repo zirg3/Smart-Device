@@ -1,0 +1,98 @@
+.abaut-company {
+  display: flex;
+  margin-top: 75px;
+}
+.abaut-company__text h2{
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 51px;
+  margin: 0;
+}
+
+.abaut-company__text p {
+  font-family: $pt-mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 21px;
+}
+
+.abaut-company__text a p {
+  font-family: $roboto-con;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  width: 180px;
+  min-height: 45px;
+  border: 1px solid $blue;
+  border-radius: 5px;
+  color: $blue;
+  text-transform: uppercase;
+  padding: 13px;
+  margin-top: 39px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.10em;
+}
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+  .abaut-company {
+    margin-top: 26px;
+  }
+
+  .abaut-company__img img {
+    width: 214px;
+    height: 360px;
+  }
+
+  .abaut-company__text h2 {
+    font-size: 28px;
+    margin-left: 2px;
+  }
+
+  .abaut-company__text {
+    margin-left: -30px;
+  }
+
+  .abaut-company__text p span {
+    display: none;
+  }
+
+  .abaut-company__text p {
+    margin-top: 20px;
+  }
+
+  .abaut-company__text a p {
+    margin-top: 43px;
+    margin-left: 3px;
+  }
+}
+
+@media (max-width: 320px) {
+  .abaut-company__img {
+    display: none;
+  }
+
+  .abaut-company__text {
+    margin-left: 0;
+  }
+
+  .abaut-company__text p {
+    margin-top: 16px;
+  }
+
+  .abaut-company__text p:nth-child(3) {
+    margin-top: 40px;
+  }
+  
+  .abaut-company__text a p {
+    margin-top: 28px;
+  }
+}
