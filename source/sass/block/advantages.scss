@@ -137,7 +137,10 @@
     flex-basis: calc(100%/1);
     margin-bottom: 29px;
     padding: 54px 10px 30px 25px;
+    margin: 0;
     margin-bottom: 20px;
+    border-left: 3px solid #00b2ff;
+    min-width: 290px;
   }
 
   .advantages ul h2 {
