@@ -88,6 +88,10 @@
   letter-spacing: 1px;
 }
 
+.page-header__form ul li p:nth-child(1):hover {
+  background-color: $blue;
+}
+
 @media (max-width: 1024px) {
   .page-header__form li {
     margin-left: 10px;

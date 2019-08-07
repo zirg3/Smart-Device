@@ -60,6 +60,12 @@
   letter-spacing: 0.05em;
 }
 
+.main a p:hover {
+  background-color: $white;
+  color: $blue;
+  border: 1px solid $blue;
+}
+
 .main a :nth-child(2) {
   display: none;
 }

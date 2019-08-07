@@ -40,6 +40,12 @@
   align-items: center;
   letter-spacing: 0.10em;
 }
+
+.abaut-company__text a p:hover {
+  background-color: $blue;
+  color: $white;
+}
+
 @media (max-width: 1024px) {}
 
 @media (max-width: 768px) {
@@ -91,7 +97,7 @@
   .abaut-company__text p:nth-child(3) {
     margin-top: 40px;
   }
-  
+
   .abaut-company__text a p {
     margin-top: 28px;
   }

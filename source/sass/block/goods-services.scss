@@ -33,19 +33,18 @@
   color: $white;
   display: flex;
   margin: 0;
-  width: 260px;
-  padding: 50px 91px 60px 0px;
+  width: 307px;
+  padding: 50px 91px 60px 40px;
 }
 
 .goods-services__wrap ul li a {
   display: flex;
 }
 
-
 .goods-services__wrap ul {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 130px;
+  padding-bottom: 75px;
   flex-wrap: wrap;
 }
 
@@ -152,7 +151,7 @@
   }
 
   .goods-services__wrap ul li a h3 {
-    padding: 40px 92px 60px 42px;
+    padding: 40px 70px 60px 50px;
     width: auto;
     margin-right: auto;
   }
@@ -182,7 +181,7 @@
     margin-bottom: 30px;
   }
   .goods-services__wrap ul li a h3 {
-    padding: 40px 52px 60px 42px;
+    padding: 19px 44px 60px 35px;
   }
 
   .goods-services__wrap ul li:nth-child(1) {
