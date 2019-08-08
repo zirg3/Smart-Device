@@ -80,7 +80,8 @@
   border: 1px solid #fff;
   outline: none;
   width: 270px;
-  height: 45px;
+  min-height: 45px;
+  padding: 10px 10px 10px 10px;
   border-radius: 5px;
   text-transform: uppercase;
 }
@@ -226,7 +227,7 @@
   }
 
   .feedback-form__wrap {
-    width: 290px;
+    width: 100%;
     margin: 0 auto 43px;
   }
 

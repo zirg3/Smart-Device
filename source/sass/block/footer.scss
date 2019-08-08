@@ -35,11 +35,11 @@
 
 .footer__logo-img a {
   display: flex;
-  width: 210px;
+  width: 215px;
 }
 
 .footer__logo-img a p {
-  font-family: $roboto-con;
+  font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -80,7 +80,7 @@
   align-items: center;
 }
 
-.footer__logo span {
+.footer__span {
   display: none;
 }
 
@@ -166,7 +166,7 @@
   padding-right: 69px;
 }
 
-.footer__copyright ul li a {
+.footer__copyright ul li {
   font-family: $pt-mono;
   font-style: normal;
   font-weight: normal;
@@ -208,7 +208,7 @@
     margin-top: 0;
   }
 
-  .footer__logo span {
+  .footer__span {
     font-family: $pt-mono;
     font-style: normal;
     font-weight: normal;

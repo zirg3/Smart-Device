@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed";
   src: url("../fonts/RobotoCondensed-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "PT Mono", monospace;
+  font-family: "PT Mono";
   src: url("../fonts/PTMono-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   src: url("../fonts/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
@@ -37,7 +37,7 @@ body {
   min-width: 320px;
   padding: 0;
   margin: 0;
-  font-family: "PT Mono", monospace, "Arial", sans-serif;
+  font-family: "PT Mono", "Arial", sans-serif;
   box-sizing: border-box;
 }
 
