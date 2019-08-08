@@ -91,7 +91,7 @@
         <picture>
           <source media="(max-width: 767px)" srcset="img/mob-main@1x.png 1x, img/mob-main@2x.png 2x">
           <source media="(max-width: 1023px)" srcset="img/tablet-main@1x.png 1x, img/tablet-main@2x.png 2x">
-          <img src="img/desct-main@1x.png" srcset="img/desct-main@2x.png 2x" alt="Промо изображение печатной платы" width="710px;" height="655px;">
+          <img src="img/desct-main@1x.png" srcset="img/desct-main@2x.png 2x" alt="Промо изображение печатной платы" width="710" height="655">
         </picture>
       </section>
     </div>
@@ -136,7 +136,7 @@
       <section class="abaut-company">
         <div class="abaut-company__img">
           <picture>
-            <img src="img/year@1x.png" srcset="img/year@2x.png 2x" alt="2005" width="183px;" height="325px;">
+            <img src="img/year@1x.png" srcset="img/year@2x.png 2x" alt="2005" width="183" height="325">
           </picture>
         </div>
         <div class="abaut-company__text">
@@ -180,19 +180,19 @@
         <div class="feedback-form__wrap">
           <h3>Остались вопросы? Задайте их нам!</h3>
           <p>Мы проконсультируем Вас бесплатно</p>
-          <form method="post" action="">
+          <form method="post" action="#">
             <div class="feedback-form__input">
-              <input type="text" placeholder="Имя" id="feedback-name">
-              <label for="name" class="visually-hidden">Ваше имя</label>
-              <input type="text" placeholder="Телефон" id="feedback-phone">
-              <label for="phone" class="visually-hidden">Ваш телефон</label>
+              <input type="text" placeholder="Имя" id="feedback-name" required="">
+              <label for="feedback-name" class="visually-hidden">Ваше имя</label>
+              <input type="text" placeholder="Телефон" id="feedback-phone" required="">
+              <label for="feedback-phone" class="visually-hidden">Ваш телефон</label>
             </div>
-            <textarea id="question" placeholder="Ваш вопрос"></textarea>
+            <textarea id="question" placeholder="Ваш вопрос" required=""></textarea>
             <label for="question" class="visually-hidden">Задайте ваш вопрос</label>
             <div class="feedback-form__btn">
               <button type="submit">Задать вопрос</button>
               <label for="consent">Я согласен на обработку персональных данных
-                <input type="checkbox" id="consent" name="consent" checked="checked">
+                <input type="checkbox" id="consent" name="consent" checked="checked" required="">
                 <span></span>
               </label>
             </div>
@@ -213,15 +213,15 @@
           </div>
           <span>1999-2018 SD Service Devices</span>
           <ul>
-            <li><a href="">
+            <li><a href="#">
                 <svg width="27" height="27">
                   <use xlink:href="#facebook"></use>
                 </svg></a></li>
-            <li><a href="">
+            <li><a href="#">
                 <svg width="26" height="26">
                   <use xlink:href="#ok"></use>
                 </svg></a></li>
-            <li><a href="">
+            <li><a href="#">
                 <svg width="27" height="26">
                   <use xlink:href="#vk"></use>
                 </svg></a></li>
@@ -265,20 +265,20 @@
   <section class="popup-feedback">
     <h2>Закажите звонок</h2>
     <p>Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
-    <form method="post" action="">
-      <input type="text" placeholder="Имя" id="popup-name">
+    <form method="post" action="#">
+      <input type="text" placeholder="Имя" id="popup-name" required="">
       <label for="popup-name" class="visually-hidden">Ваше имя</label>
-      <input type="text" placeholder="Телефон" id="popup-phone">
+      <input type="text" placeholder="Телефон" id="popup-phone" required="">
       <label for="popup-phone" class="visually-hidden">Ваш телефон</label>
-      <textarea id="popup-question" placeholder="Ваш вопрос"></textarea>
+      <textarea id="popup-question" placeholder="Ваш вопрос" required=""></textarea>
       <label for="popup-question" class="visually-hidden">Задайте ваш вопрос</label>
       <button type="submit">Отправить</button>
       <label for="popup-consent" class="popup-feedback__checkbox-label">
-          Я согласен на обработку персональных данных<input class="popup-feedback__checkbox-input" type="checkbox" id="popup-consent" name="consent"><span></span></label>
+          Я согласен на обработку персональных данных<input class="popup-feedback__checkbox-input" type="checkbox" id="popup-consent" name="consent" checked="checked" required=""><span></span></label>
     </form>
     <div class="popup-feedback__svg-close">
     <button>
-      <svg width="16px" ;="" height="16px">
+      <svg width="16" height="16">
         <use xlink:href="#close"></use>
       </svg>
       <span class="visually-hidden"></span>
