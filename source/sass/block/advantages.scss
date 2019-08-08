@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 
-.advantages ul li:nth-child(1) svg {
+.advantages__icon--1 svg {
   position: absolute;
   width: 30px;
   height: 36px;
@@ -16,7 +16,7 @@
   fill: $blue;
 }
 
-.advantages ul li:nth-child(2) svg {
+.advantages__icon--2 svg {
   position: absolute;
   width: 35px;
   height: 35px;
@@ -24,7 +24,7 @@
   fill: $blue;
 }
 
-.advantages ul li:nth-child(3) svg {
+.advantages__icon--3 svg {
   position: absolute;
   width: 36px;
   height: 31px;
@@ -32,7 +32,7 @@
   fill: $blue;
 }
 
-.advantages ul li:nth-child(4) svg {
+.advantages__icon--4 svg {
   position: absolute;
   width: 35px;
   height: 35px;
@@ -55,7 +55,7 @@
   border-left: 3px solid $blue;
   flex-basis: calc((100% / 2) - 15px);
   margin-bottom: 29px;
-  padding: 73px 35px 0px 43px;
+  padding: 73px 35px 30px 43px;
   min-height: 300px;
   position: relative;
   max-width: 50%;
@@ -91,37 +91,36 @@
   }
 
   .advantages ul li {
-    padding: 46px 20px 29px 25px;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    padding: 46px 18px 29px 25px;
+    margin: 0 0 28px;
     border-left: 2px solid #00b2ff;
     min-height: auto;
     min-width: 250px;
   }
 
   .advantages ul h2 {
-    margin-bottom: 11px;
+    margin-bottom: 10px;
   }
 
-  .advantages ul li:nth-child(1) svg {
+  .advantages__icon--1 svg {
     width: 30px;
     height: 36px;
     top: 24px;
   }
 
-  .advantages ul li:nth-child(2) svg {
+  .advantages__icon--2 svg {
     width: 32px;
     height: 32px;
     top: 23px;
   }
 
-  .advantages ul li:nth-child(3) svg {
+  .advantages__icon--3 svg {
     width: 30px;
     height: 26px;
     top: 26px;
   }
 
-  .advantages ul li:nth-child(4) svg {
+  .advantages__icon--4 svg {
     width: 32px;
     height: 32px;
     top: 23px;
@@ -142,7 +141,7 @@
     border-left: 3px solid #00b2ff;
     min-width: 290px;
   }
-  
+
   .advantages ul {
     justify-content: center;
   }
