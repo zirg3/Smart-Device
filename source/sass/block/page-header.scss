@@ -106,7 +106,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .page-header {
     min-height: 685px;
     min-width: 500px;
@@ -117,7 +117,7 @@
     padding-top: 22px;
   }
 
-  .page-header__form ul p{
+  .page-header__form ul p {
     display: none;
   }
 
@@ -142,7 +142,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .page-header {
     min-height: 645px;
     min-width: 320px;

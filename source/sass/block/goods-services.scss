@@ -123,7 +123,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .goods-services {
     margin-top: 75px;
     min-width: 500px;
@@ -157,7 +157,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .goods-services {
     min-width: 320px;
     margin-top: 67px;
@@ -175,6 +175,10 @@
     padding-bottom: 44px;
   }
 
+  .goods-services__wrap ul {
+    justify-content: center;
+  }
+  
   .goods-services__wrap ul li {
     max-width: 290px;
     min-height: 256px;

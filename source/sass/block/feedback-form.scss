@@ -167,7 +167,7 @@
 }
 @media (max-width: 1024px) {}
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .feedback-form {
     min-width: 500px;
   }
@@ -201,12 +201,25 @@
     width: 279px;
   }
 
+  .feedback-form__btn label span {
+    left: -38px;
+    height: 16px;
+    width: 17px;
+  }
+
+  .feedback-form__btn span::after {
+    left: 6px;
+    top: 0px;
+    width: 5px;
+    height: 8px;
+  }
+
   .feedback-form__wrap {
     margin-bottom: 104px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .feedback-form {
     min-width: 320px;
   }

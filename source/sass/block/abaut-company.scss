@@ -48,7 +48,7 @@
 
 @media (max-width: 1024px) {}
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .abaut-company {
     margin-top: 26px;
   }
@@ -81,7 +81,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .abaut-company__img {
     display: none;
   }

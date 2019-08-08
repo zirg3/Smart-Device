@@ -85,7 +85,7 @@
 
 
 @media (max-width: 1024px) {}
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .advantages {
     margin-top: 55px;
   }
@@ -128,7 +128,7 @@
 
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .advantages {
     margin-top: 40px;
   }
@@ -141,6 +141,10 @@
     margin-bottom: 20px;
     border-left: 3px solid #00b2ff;
     min-width: 290px;
+  }
+  
+  .advantages ul {
+    justify-content: center;
   }
 
   .advantages ul h2 {
