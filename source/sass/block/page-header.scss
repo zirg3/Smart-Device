@@ -46,6 +46,7 @@
   margin: 2px 3px 0 0;
   display: flex;
   align-items:center;
+  flex-wrap: wrap;
 }
 
 .page-header__form ul a {
@@ -55,6 +56,10 @@
   font-size: 16px;
   line-height: 18px;
   color: $white;
+}
+
+.page-header__form ul li p:hover {
+  color: $blue
 }
 
 .page-header__form li {
@@ -88,8 +93,9 @@
   letter-spacing: 1px;
 }
 
-.page-header__form ul li p:nth-child(1):hover {
-  background-color: $blue;
+.page-header__call-back:hover {
+  background-color: $white;
+  border-radius: 8px;
 }
 
 @media (max-width: 1024px) {
@@ -131,12 +137,16 @@
     width: 25px;
     height: 24px;
   }
+
   .page-header__form li {
     margin-left: 3px;
   }
+
   .page-header__form ul {
     margin: 10px 0 0 0;
+    min-width: 87px;
   }
+
   .page-header__form li:nth-child(1) {
     margin-right: 30px;
   }
@@ -151,6 +161,7 @@
   .page-header__wrap {
     padding-left: 17px;
     padding-top: 17px;
+    padding-right: 14px;
   }
 
   .page-header__logo-img img{
@@ -164,6 +175,7 @@
 
   .page-header__form ul {
     margin: 6px 0 0 0;
+    min-width: 75px;
   }
 
   .page-header__form li {

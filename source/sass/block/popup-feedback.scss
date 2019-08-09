@@ -7,11 +7,11 @@
   padding-right: 40px;
   margin: 0 auto;
   position: fixed;
-  top: 120px;
-  left: 20%;
-  right: 20%;
   z-index: 66;
   display: none;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .popup-feedback__show {
@@ -50,7 +50,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  width: 230px;
+  width: auto;
   color: $white;
   margin-top: 10px;
   opacity: 0.8;

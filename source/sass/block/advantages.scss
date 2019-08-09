@@ -135,11 +135,12 @@
   .advantages ul li {
     flex-basis: calc(100%/1);
     margin-bottom: 29px;
-    padding: 54px 10px 30px 25px;
+    padding: 54px 15px 30px 25px;
     margin: 0;
-    margin-bottom: 20px;
+    margin: 0 0 21px;
     border-left: 3px solid #00b2ff;
     min-width: 290px;
+    max-width: 100%;
   }
 
   .advantages ul {
@@ -151,8 +152,8 @@
     line-height: 28px;
   }
 
-  .advantages ul li:nth-child(1) p {
-    max-width: 232px;
+  .advantages ul li:nth-child(2) {
+    padding-right: 10px;
   }
 
   .advantages ul li:nth-child(3) h2 {

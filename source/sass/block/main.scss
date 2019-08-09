@@ -5,6 +5,7 @@
   margin: 0 auto;
   position: relative;
   z-index: 5;
+  margin-top: 226px;
 }
 
 .main h1 {
@@ -17,7 +18,7 @@
   letter-spacing: 0.06em;
   color: $white;
   margin-bottom: 27px;
-  margin-top: 226px;
+  margin-top: 0;
   max-width: 780px;
 }
 
@@ -43,7 +44,14 @@
   background: $white;
 }
 
-.main a p {
+.page-header__link {
+  display: flex;
+  max-width: 407px;
+  margin-left: 93px;
+  margin-top: 45px;
+}
+
+.page-header__link p {
   font-family: $roboto-con;
   font-style: normal;
   font-weight: bold;
@@ -59,15 +67,19 @@
   border-radius: 5px;
   letter-spacing: 0.05em;
   margin-bottom: 45px;
+  border: 1px solid $blue;
+  margin: 0;
+  padding-left: 45px;
+  padding-right: 42px;
 }
 
-.main a p:hover {
+.page-header__link p:hover {
   background-color: $white;
   color: $blue;
   border: 1px solid $blue;
 }
 
-.main a :nth-child(2) {
+.page-header__link p:nth-child(2) {
   display: none;
 }
 
@@ -91,12 +103,21 @@
 }
 
 @media (max-width: 1023px) {
+  .main {
+    margin: 112px auto 0;
+  }
+
+  .page-header__link {
+    margin-top: 55px;
+    margin-left: 118px;
+    max-width: 380px;
+  }
+
   .main h1 {
     font-size: 60px;
     line-height: 70px;
     max-width: 485px;
     margin-left: 70px;
-    margin-top: 112px;
   }
 
   .main p {
@@ -111,9 +132,13 @@
     left: -47px;
   }
 
-  .main a p {
+  .page-header__link p {
     max-width: 380px;
-    margin-top: 55px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 0;
   }
 
   .main img {
@@ -127,7 +152,7 @@
 @media (max-width: 767px) {
   .main {
     padding-left: 17px;
-    padding-right: 17px;
+    padding-right: 16px;
   }
 
   .main h1 {
@@ -147,18 +172,26 @@
     top: 15px;
     left: -48px;
   }
-  .main a p {
-    margin-top: 40px;
+
+  .page-header__link p {
+    margin-top: 0;
     margin-left: 0px;
     max-width: 290px;
     min-height: 55px;
     letter-spacing: .07em;
+    padding-right: 27px;
+    padding-left: 28px;
   }
-  .main a :nth-child(1) {
+
+  .page-header__link {
+    margin-top: 39px;
+    margin-left: 0;
+  }
+  .page-header__link p:nth-child(1) {
     display: none;
   }
 
-  .main a :nth-child(2) {
+  .page-header__link p:nth-child(2) {
     display: block;
   }
 

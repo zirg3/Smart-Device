@@ -25,7 +25,8 @@
 }
 
 .footer__address {
-  max-width: 333px;
+  min-width: auto;
+  padding-left: 60px;
 }
 
 .footer-contaner {
@@ -71,6 +72,7 @@
 
 .footer__logo ul li svg:hover {
   fill: $blue;
+  cursor: pointer;
 }
 
 .footer__logo ul {
@@ -85,7 +87,8 @@
 
 .footer__nav {
   min-width: 580px;
-  margin-right: 100px;
+  margin-right: 50px;
+  padding-left: 10px;
 }
 
 .footer__nav h2 {
@@ -122,6 +125,10 @@
   opacity: 0.5;
 }
 
+.footer__nav ul li a:hover {
+  opacity: 1;
+}
+
 .footer__address h3 {
   font-family: $roboto-con;
   font-style: normal;
@@ -148,6 +155,11 @@
 
 .footer__address a {
   display: block;
+}
+
+.footer__address a:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .footer__copyright ul {
@@ -222,6 +234,7 @@
     min-width: 0;
     margin-right: 0;
     flex-basis: 50%;
+    padding-left: 0;
   }
 
   .footer__nav ul {
@@ -248,14 +261,17 @@
 
   .footer__nav h2 {
     padding-left: 3px;
-    margin: 62px 0 28px;
+    margin: 60px 0 28px;
   }
 
   .footer__address {
     flex-basis: 50%;
+    max-width: 333px;
+    padding-left: 0px;
   }
+
   .footer__address h3 {
-    margin: 63px 0 25px;
+    margin: 60px 0 25px;
   }
 
   .footer__copyright ul li:nth-child(1) {
@@ -297,31 +313,47 @@
 
   .footer__wrapper {
     padding: 38px 15px 0;
+    display: block;
   }
 
   .footer__nav {
     flex-basis: 100%;
-    margin-top: 84px;
+    margin-top: 54px;
     border-top: 1px solid rgba(95, 105, 98, .2);
     border-bottom: 1px solid rgba(95, 105, 98, .2);
+    min-width: 290px;
   }
 
   .footer__nav h2 {
     margin: 0 0 28px;
+    padding-top: 30px;
   }
 
   .footer__address {
     flex-basis: 100%;
-    padding-bottom: 25px;
+    max-width: 100%;
+    padding-right: 5px;
+    min-width: auto;
   }
 
   .footer__copyright ul {
     flex-direction: column;
     align-items: center;
+    padding-bottom: 31px;
+    padding-top: 53px;
   }
 
   .footer__copyright ul li:nth-child(4) {
     padding-top: 20px;
+  }
+
+  .footer__address h3 {
+    margin: 25px 0 34px;
+    position: relative;
+  }
+
+  .footer__wrap-copyright {
+    margin-top: 0;
   }
 
   .footer__logo-img {
@@ -330,5 +362,9 @@
 
   .footer__logo ul {
     margin-top: 30px;
+  }
+
+  .footer__hidden {
+    display: none;
   }
 }

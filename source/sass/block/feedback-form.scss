@@ -86,8 +86,20 @@
   text-transform: uppercase;
 }
 
+.feedback-form__btn button:hover {
+  border: 1px solid $blue;
+  background-color: $white;
+  color: $blue;
+  cursor: pointer;
+}
+
 .feedback-form__input input::placeholder,
 .feedback-form__wrap form textarea::placeholder {
+  font-family: $pt-mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
   background-color: #19baff;
   color: $white;
 }
@@ -173,6 +185,7 @@
   .feedback-form {
     min-width: 500px;
   }
+
   .feedback-form__background::before {
     background-image: none;
   }
@@ -192,7 +205,7 @@
   .feedback-form__wrap form textarea {
     width: 100%;
     min-height: 170px;
-    padding: 19px 0 0 22px;
+    padding: 13px 0 0 22px;
   }
 
   .feedback-form__input input {
@@ -273,13 +286,13 @@
 
   .feedback-form__btn label span {
     left: 1px;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
   }
 
   .feedback-form__btn label span::after {
-    left: 7px;
-    top: 5px;
+    left: 5px;
+    top: 2px;
     width: 4px;
     height: 8px;
   }
