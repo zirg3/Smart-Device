@@ -68,6 +68,10 @@
   opacity: 0.8;
 }
 
+.feedback-form__btn label:hover {
+  text-decoration: underline;
+}
+
 .feedback-form__btn button {
   font-family: $roboto-con;
   font-style: normal;
@@ -110,6 +114,11 @@
   border: none;
   outline: none;
   color: $white;
+  font-family: $pt-mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .feedback-form__input {
@@ -119,7 +128,7 @@
 
 .feedback-form__input input {
   width: 270px;
-  height: 50px;
+  min-height: 50px;
   padding-left: 21px;
 }
 
@@ -259,7 +268,7 @@
   }
 
   .feedback-form__btn button {
-    width: 290px;
+    min-width: 100%;
   }
 
   .feedback-form__wrap form textarea {

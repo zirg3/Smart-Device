@@ -98,6 +98,26 @@
   border-radius: 8px;
 }
 
+.page-header__scroll-link {
+  font-family: $pt-mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: $white;
+  opacity: 0.5;
+  position: absolute;
+  top: 417px;
+  left: -22px;
+  width: 100px;
+  transform: rotate(-90deg);
+}
+
+.page-header__scroll-link:hover {
+  color: $blue;
+  opacity: 1;
+}
+
 @media (max-width: 1024px) {
   .page-header__form li {
     margin-left: 10px;
@@ -109,6 +129,10 @@
 
   .page-header__form ul img {
     margin-right: 10px;
+  }
+
+  .page-header__scroll-link {
+    display: none;
   }
 }
 
@@ -149,6 +173,10 @@
 
   .page-header__form li:nth-child(1) {
     margin-right: 30px;
+  }
+
+  .page-header__scroll-link {
+    display: none;
   }
 }
 

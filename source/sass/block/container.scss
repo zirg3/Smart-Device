@@ -1,0 +1,16 @@
+.container {
+  background-image: url(../img/background.png);
+  background-position: center -428px;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1023px) {
+  .container {
+    background-image: url(../img/background-tablet.png);
+    background-position: center -428px;
+  }
+}
+
+@media (max-width: 767px) {
+
+}

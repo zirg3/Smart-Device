@@ -44,14 +44,15 @@
   background: $white;
 }
 
-.page-header__link {
+.main__link {
   display: flex;
   max-width: 407px;
   margin-left: 93px;
   margin-top: 45px;
+  margin-bottom: 40px;
 }
 
-.page-header__link p {
+.main__link p {
   font-family: $roboto-con;
   font-style: normal;
   font-weight: bold;
@@ -73,13 +74,13 @@
   padding-right: 42px;
 }
 
-.page-header__link p:hover {
+.main__link p:hover {
   background-color: $white;
   color: $blue;
   border: 1px solid $blue;
 }
 
-.page-header__link p:nth-child(2) {
+.main__link p:nth-child(2) {
   display: none;
 }
 
@@ -107,7 +108,7 @@
     margin: 112px auto 0;
   }
 
-  .page-header__link {
+  .main__link {
     margin-top: 55px;
     margin-left: 118px;
     max-width: 380px;
@@ -132,7 +133,7 @@
     left: -47px;
   }
 
-  .page-header__link p {
+  .main__link p {
     max-width: 380px;
     padding-right: 30px;
     padding-left: 30px;
@@ -173,7 +174,7 @@
     left: -48px;
   }
 
-  .page-header__link p {
+  .main__link p {
     margin-top: 0;
     margin-left: 0px;
     max-width: 290px;
@@ -183,16 +184,20 @@
     padding-left: 28px;
   }
 
-  .page-header__link {
+  .main__link {
     margin-top: 39px;
     margin-left: 0;
   }
-  .page-header__link p:nth-child(1) {
+  .main__link p:nth-child(1) {
     display: none;
   }
 
-  .page-header__link p:nth-child(2) {
+  .main__link p:nth-child(2) {
     display: block;
+  }
+
+  .main__link p::before {
+    display: none;
   }
 
   .main img {

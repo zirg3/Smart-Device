@@ -1,5 +1,5 @@
 .advantages {
-  margin-top: 112px;
+  padding-top: 112px;
 }
 
 .advantages ul {
@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 
-.advantages__icon--1 svg {
+.advantages__icon-deadlines svg {
   position: absolute;
   width: 30px;
   height: 36px;
@@ -16,7 +16,7 @@
   fill: $blue;
 }
 
-.advantages__icon--2 svg {
+.advantages__icon-suppliers svg {
   position: absolute;
   width: 35px;
   height: 35px;
@@ -24,7 +24,7 @@
   fill: $blue;
 }
 
-.advantages__icon--3 svg {
+.advantages__icon-confidentiality svg {
   position: absolute;
   width: 36px;
   height: 31px;
@@ -32,7 +32,7 @@
   fill: $blue;
 }
 
-.advantages__icon--4 svg {
+.advantages__icon-cost svg {
   position: absolute;
   width: 35px;
   height: 35px;
@@ -58,7 +58,8 @@
   padding: 73px 35px 30px 43px;
   min-height: 300px;
   position: relative;
-  max-width: 50%;
+  max-width: 49%;
+  background-color: $white;
 
   &:hover {
     background-color: $blue;
@@ -87,7 +88,7 @@
 @media (max-width: 1024px) {}
 @media (max-width: 1023px) {
   .advantages {
-    margin-top: 55px;
+        padding-top: 55px;
   }
 
   .advantages ul li {
@@ -102,25 +103,25 @@
     margin-bottom: 10px;
   }
 
-  .advantages__icon--1 svg {
+  .advantages__icon-deadlines svg {
     width: 30px;
     height: 36px;
     top: 24px;
   }
 
-  .advantages__icon--2 svg {
+  .advantages__icon-suppliers svg {
     width: 32px;
     height: 32px;
     top: 23px;
   }
 
-  .advantages__icon--3 svg {
+  .advantages__icon-confidentiality svg {
     width: 30px;
     height: 26px;
     top: 26px;
   }
 
-  .advantages__icon--4 svg {
+  .advantages__icon-cost svg {
     width: 32px;
     height: 32px;
     top: 23px;
@@ -129,7 +130,7 @@
 }
 @media (max-width: 767px) {
   .advantages {
-    margin-top: 40px;
+    padding-top: 40px;
   }
 
   .advantages ul li {

@@ -11,7 +11,7 @@
   <div style="display:none">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <symbol id="close" viewBox="0 0 17 17">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.146522 0.853553C-0.04874 0.658291 -0.04874 0.341709 0.146522 0.146447C0.341784 -0.0488155 0.658367 -0.0488156 0.853629 0.146447L8.27821 7.57103L15.7028 0.14645C15.8981 -0.0488124 16.2146 -0.0488125 16.4099 0.14645C16.6052 0.341712 16.6052 0.658294 16.4099 0.853556L8.98532 8.27814L16.41 15.7028C16.6052 15.8981 16.6052 16.2146 16.41 16.4099C16.2147 16.6052 15.8981 16.6052 15.7029 16.4099L8.27821 8.98525L0.853553 16.4099C0.658291 16.6052 0.341709 16.6052 0.146447 16.4099C-0.0488155 16.2146 -0.0488156 15.8981 0.146447 15.7028L7.57111 8.27814L0.146522 0.853553Z" fill="white"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.146522 0.853553C-0.04874 0.658291 -0.04874 0.341709 0.146522 0.146447C0.341784 -0.0488155 0.658367 -0.0488156 0.853629 0.146447L8.27821 7.57103L15.7028 0.14645C15.8981 -0.0488124 16.2146 -0.0488125 16.4099 0.14645C16.6052 0.341712 16.6052 0.658294 16.4099 0.853556L8.98532 8.27814L16.41 15.7028C16.6052 15.8981 16.6052 16.2146 16.41 16.4099C16.2147 16.6052 15.8981 16.6052 15.7029 16.4099L8.27821 8.98525L0.853553 16.4099C0.658291 16.6052 0.341709 16.6052 0.146447 16.4099C-0.0488155 16.2146 -0.0488156 15.8981 0.146447 15.7028L7.57111 8.27814L0.146522 0.853553Z"></path>
       </symbol>
       <symbol id="detective" viewBox="0 0 36 31">
         <path d="M18 9.75821C17.6119 9.75821 17.2969 10.0752 17.2969 10.4663C17.2969 10.8571 17.6119 11.1743 18 11.1743C18.3881 11.1743 18.7031 10.8571 18.7031 10.4663C18.7031 10.0752 18.3881 9.75821 18 9.75821Z"></path>
@@ -71,7 +71,7 @@
           <li><a href="malito:info@sd.ru"><img src="img/mail.svg" alt="емеил" width="18" height="18">
             <p>info@sd.ru</p>
           </a></li>
-          <li><a href="tel:+7 (495) 000 52 52"><img src="img/phone-call.svg" alt="телефон" width="18" height="18">
+          <li><a href="tel:+7495005252"><img src="img/phone-call.svg" alt="телефон" width="18" height="18">
             <p>+7 (495) 000 52 52</p>
           </a></li>
           <li class="page-header__call-back"><a href="#" class="page-header__call">
@@ -84,7 +84,7 @@
       <section class="main">
         <h1>Печатные платы</h1>
         <p>производство и монтаж, поставка комплектующих, блоков и модулей</p>
-        <a class="page-header__link" href="#">
+        <a class="main__link" href="#">
           <p>Получить бесплатную консультацию</p>
           <p>Бесплатная консультация</p>
         </a>
@@ -93,72 +93,74 @@
           <source media="(max-width: 1023px)" srcset="img/tablet-main@1x.png 1x, img/tablet-main@2x.png 2x">
           <img src="img/desct-main@1x.png" srcset="img/desct-main@2x.png 2x" alt="Промо изображение печатной платы" width="710" height="655">
         </picture>
+        <a class="page-header__scroll-link" href="#advantages">Скролл вниз</a>
       </section>
     </div>
+
   </header>
-  <main>
+  <main class="container">
     <div class="wrapper">
-      <section class="advantages">
-        <ul>
-          <li class="advantages__icon advantages__icon--1">
-            <svg>
-              <use xlink:href="#stopwatch"></use>
-            </svg>
-            <h2>Оперативные сроки</h2>
-            <p>Усовершенствованная логистическая система позволяет нам просчитывать стоимость,
-              производить и доставлять заказы плат и комплектующих в самые короткие сроки</p>
-          </li>
-          <li class="advantages__icon advantages__icon--2">
-            <svg>
-              <use xlink:href="#suppliers"></use>
-            </svg>
-            <h2>Крупные поставщики</h2>
-            <p>Нашими поставщиками являются такие крупные мировые компании как: OSRAM,
-              CREE, HOLGLITRONIC, REFOND. Сотрудничество с такими компаниями обеспичивает хорошее качество нашей
-              продукции.</p>
-          </li>
-          <li class="advantages__icon advantages__icon--3">
-            <svg>
-              <use xlink:href="#detective"></use>
-            </svg>
-            <h2>Полная конфиденциальность</h2>
-            <p>По желанию клиента мы обеспечиваем полную конфеденциальность.</p>
-          </li>
-          <li class="advantages__icon advantages__icon--4">
-            <svg>
-              <use xlink:href="#tag"></use>
-            </svg>
-            <h2>Персонализация стоимости</h2>
-            <p>Мы подбираем определенную фабрику, поставщиков, вид доставки, чтобы установить&nbsp;ту цену, которая Вас устраивает.</p>
-          </li>
-        </ul>
-      </section>
-      <section class="abaut-company">
-        <div class="abaut-company__img">
-          <picture>
-            <img src="img/year@1x.png" srcset="img/year@2x.png 2x" alt="2005" width="183" height="325">
-          </picture>
-        </div>
-        <div class="abaut-company__text">
-          <h2>О компании</h2>
-          <p>Мы поставляем электронные комплектующие, производим печатные платы и предоставляем мировые
-            технологии с 1997 года. Выполняем срочные заказы и пилотные образцы до 10 дней.</p>
-          <p>Наши поставщики - мировые производители электронных компонентов: OSRAM, CREE, HOLGLITRONIC,
-            REFOND. Печатные платы и комплектующие Service Devices применяются на предприятиях Российских
-            Железных Дорог..<span>(РЖД), РоссАвтоПрома (ВАЗ, АвтоГАЗ), МинАтома, СпецМедТехники. Среди наших клиентов
-            крупнейшие Производители светотехники России.</span></p>
-          <a class="abaut-company__link" href="#">
-            <p>Подробнее</p>
-          </a>
-        </div>
-      </section>
+        <section id="advantages" class="advantages">
+          <ul>
+            <li class="advantages__icon advantages__icon-deadlines">
+              <svg>
+                <use xlink:href="#stopwatch"></use>
+              </svg>
+              <h2>Оперативные сроки</h2>
+              <p>Усовершенствованная логистическая система позволяет нам просчитывать стоимость,
+                производить и доставлять заказы плат и комплектующих в самые короткие сроки</p>
+            </li>
+            <li class="advantages__icon advantages__icon-suppliers">
+              <svg>
+                <use xlink:href="#suppliers"></use>
+              </svg>
+              <h2>Крупные поставщики</h2>
+              <p>Нашими поставщиками являются такие крупные мировые компании как: OSRAM,
+                CREE, HOLGLITRONIC, REFOND. Сотрудничество с такими компаниями обеспичивает хорошее качество нашей
+                продукции.</p>
+            </li>
+            <li class="advantages__icon advantages__icon-confidentiality">
+              <svg>
+                <use xlink:href="#detective"></use>
+              </svg>
+              <h2>Полная конфиденциальность</h2>
+              <p>По желанию клиента мы обеспечиваем полную конфеденциальность.</p>
+            </li>
+            <li class="advantages__icon advantages__icon-cost">
+              <svg>
+                <use xlink:href="#tag"></use>
+              </svg>
+              <h2>Персонализация стоимости</h2>
+              <p>Мы подбираем определенную фабрику, поставщиков, вид доставки, чтобы установить&nbsp;ту цену, которая Вас устраивает.</p>
+            </li>
+          </ul>
+        </section>
+        <section class="abaut-company">
+          <div class="abaut-company__img">
+            <picture>
+              <img src="img/year@1x.png" srcset="img/year@2x.png 2x" alt="2005" width="183" height="325">
+            </picture>
+          </div>
+          <div class="abaut-company__text">
+            <h2>О компании</h2>
+            <p>Мы поставляем электронные комплектующие, производим печатные платы и предоставляем мировые
+              технологии с 1997 года. Выполняем срочные заказы и пилотные образцы до 10 дней.</p>
+            <p>Наши поставщики - мировые производители электронных компонентов: OSRAM, CREE, HOLGLITRONIC,
+              REFOND. Печатные платы и комплектующие Service Devices применяются на предприятиях Российских
+              Железных Дорог..<span>(РЖД), РоссАвтоПрома (ВАЗ, АвтоГАЗ), МинАтома, СпецМедТехники. Среди наших клиентов
+              крупнейшие Производители светотехники России.</span></p>
+            <a class="abaut-company__link" href="#">
+              <p>Подробнее</p>
+            </a>
+          </div>
+        </section>
     </div>
     <section class="goods-services">
       <div class="goods-services__wrap">
         <h2>Service Device предлагает следующие товары и услуги</h2>
         <ul>
           <li class="goods-services__goods goods-services__goods--1"><a class="goods-services__link" href="#">
-              <h3>Производство<br> печатных платы</h3>
+              <h3>Производство<br> печатных плат</h3>
               <div class="goods-services__pointer"><span></span></div>
             </a>
           </li>
@@ -208,8 +210,9 @@
           <div class="footer__logo-img">
           <a href="#">
             <img src="img/logo.svg" width="52" height="52" alt="лого">
-            <p>Service Device<span> умные технологии</span></p>
           </a>
+            <p>Service Device<span> умные технологии</span></p>
+
           </div>
           <div class="footer__span">
           <span>1999-2018 SD Service Devices</span>
@@ -244,12 +247,12 @@
           </div>
         </div>
         <div class="footer-contaner footer__address">
-          <h3 class="footer-contaner__collapse">Наш офис</h3>
-          <div>
+          <h3 class="footer-contaner__collapse ">Наш офис</h3>
+          <div class="footer__hidden">
           <p>г. Мытищи, Олимпийский проспект, д.10</p>
-          <a href="tel:">+7 (495) 589-40-50</a>
-          <a href="tel:">+7 (925) 003-87-67</a>
-          <a href="tel:">+7 (926) 926-080-79</a>
+          <a href="tel:+74955894050">+7 (495) 589-40-50</a>
+          <a href="tel:+79250038767">+7 (925) 003-87-67</a>
+          <a href="tel:+792692608079">+7 (926) 926-080-79</a>
           </div>
         </div>
       </div>
@@ -258,8 +261,8 @@
           <ul>
             <li><span>Все права защищены</span></li>
             <li><span>1999-2018 SD Service Devices</span></li>
-            <li>Условия конфиденциальности</li>
-            <li>Developed by wow studio</li>
+            <li><a class="footer__confidentiality" href="#">Условия конфиденциальности</a></li>
+            <li><a class="footer__developed" href="#">Developed by wow studio</a></li>
           </ul>
         </div>
       </div>
@@ -276,13 +279,13 @@
       <label for="popup-phone" class="visually-hidden">Ваш телефон</label>
       <textarea id="popup-question" placeholder="Ваш вопрос" required=""></textarea>
       <label for="popup-question" class="visually-hidden">Задайте ваш вопрос</label>
-      <button type="submit">Отправить</button>
+      <button class="popup-feedback__send-btn" type="submit">Отправить</button>
       <label for="popup-consent" class="popup-feedback__checkbox-label">
           Я согласен на обработку персональных данных<input class="popup-feedback__checkbox-input" type="checkbox" id="popup-consent" name="consent" checked="checked" required=""><span></span></label>
     </form>
     <div class="popup-feedback__svg-close">
-    <button>
-      <svg width="16" height="16">
+    <button class="popup-feedback__close__btn" type="button">
+      <svg class="popup-feedback__close" width="16" height="16">
         <use xlink:href="#close"></use>
       </svg>
       <span class="visually-hidden"></span>
