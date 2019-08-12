@@ -399,7 +399,7 @@
     display: none;
   }
 
-  .footer-contaner__collapse--plus::before {
+  .footer-contaner__collapse::before {
     content: "";
     position: absolute;
     background-image: url("../img/plus.png");
@@ -407,9 +407,10 @@
     width: 20px;
     height: 20px;
     top: 0;
-    right: 20px;
+    right: 5%;
   }
-  .footer-contaner__collapse--minus::after {
+
+  .footer-contaner__collapse.active::before {
     content: "";
     position: absolute;
     background-image: url("../img/minus.png");
@@ -417,7 +418,12 @@
     width: 20px;
     height: 20px;
     top: 7px;
-    right: 20px;
+    right: 5%;
+  }
+
+  .footer-contaner__collapse:hover {
+    cursor: pointer;
+    text-decoration: underline;
   }
 
   .footer__span {

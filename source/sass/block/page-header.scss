@@ -14,6 +14,8 @@
   display: flex;
   padding-top: 34px;
   justify-content: space-between;
+  position: relative;
+  z-index: 22;
 }
 
 .page-header__logo {
@@ -58,27 +60,41 @@
   color: $white;
 }
 
+.page-header__mail:hover,
+.page-header__tel:hover {
+  opacity: 0.7;
+}
+
 .page-header__form ul li p:hover {
-  color: $blue
+  color: $blue;
+  opacity: 1;
 }
 
 .page-header__form li {
-  margin-left: 48px;
+  min-width: 25%;
+  max-width: 54%;
+  padding-left: 48px;
 }
 
-.page-header__form li:nth-child(1) {
-  margin-right: 42px;
+.page-header__form li:nth-child(5n + 1) {
+  padding-right: 40px;
 }
 
-.page-header__form li:nth-child(1) {
-  margin-left: 0;
+.page-header__call {
+  max-width: 180px;
+}
+
+.page-header__call:hover {
+  background-color: $white;
+  border-radius: 8px;
+  max-width: 180px;
 }
 
 .page-header__form ul img {
   margin-right: 16px;
 }
 
-.page-header__form ul li p:nth-child(1) {
+.page-header__call-back p {
   font-family: $roboto-con;
   font-style: normal;
   font-weight: bold;
@@ -91,11 +107,6 @@
   padding: 14px 23px 13px 25px;
   border-radius: 8px;
   letter-spacing: 1px;
-}
-
-.page-header__call-back:hover {
-  background-color: $white;
-  border-radius: 8px;
 }
 
 .page-header__scroll-link {
@@ -164,15 +175,20 @@
 
   .page-header__form li {
     margin-left: 3px;
+    padding-left: 0;
   }
 
   .page-header__form ul {
     margin: 10px 0 0 0;
-    min-width: 87px;
+    min-width: auto;
   }
 
   .page-header__form li:nth-child(1) {
     margin-right: 30px;
+  }
+
+  .page-header__form li:nth-child(5n+1) {
+    padding-right: 0;
   }
 
   .page-header__scroll-link {
@@ -203,7 +219,7 @@
 
   .page-header__form ul {
     margin: 6px 0 0 0;
-    min-width: 75px;
+    min-width: 70px;
   }
 
   .page-header__form li {

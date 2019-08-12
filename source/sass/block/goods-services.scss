@@ -45,6 +45,7 @@
   display: flex;
   padding-bottom: 75px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .goods-services__wrap ul li {
@@ -54,16 +55,13 @@
   justify-content: flex-end;
   background-repeat: no-repeat;
   background-size: cover;
-  flex-basis: calc(100%/3);
+  flex-basis: 33.333%;
   margin-bottom: 50px;
+  width: calc(30% - 30px);
 }
 
 .goods-services__link:hover {
   background-color: rgba(27, 45, 55, .2);
-}
-
-.goods-services__wrap ul li:not(:nth-child(3n)) {
-  margin-right: 30px;
 }
 
 .goods-services__link {
@@ -142,7 +140,7 @@
 
   .goods-services__wrap ul li a h3 {
     padding: 40px 70px 60px 50px;
-    width: auto;
+    max-width: 285px;
     margin-right: auto;
   }
 

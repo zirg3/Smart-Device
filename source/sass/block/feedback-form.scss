@@ -103,7 +103,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 42px;
   background-color: #19baff;
   color: $white;
 }
@@ -305,4 +305,10 @@
     width: 4px;
     height: 8px;
   }
+
+  .feedback-form__input input::placeholder,
+  .feedback-form__wrap form textarea::placeholder {
+    line-height: 26px;
+  }
 }
+

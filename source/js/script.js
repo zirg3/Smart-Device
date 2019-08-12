@@ -6,8 +6,8 @@ $(document).ready(function () {
   if (isMobile) {
     $(document).ready(function () {
       $('.footer-contaner__collapse').click(function () {
-        $(this).toggleClass('in').next().slideToggle();
-        $('.footer-contaner__collapse').not(this).removeClass('in').next().slideUp();
+        $(this).toggleClass('active');
+        $(this).next().slideToggle();
       });
     });
   }
@@ -45,4 +45,39 @@ window.addEventListener("keydown", function (evt) {
   }
 });
 
+window.addEventListener("DOMContentLoaded", function () {
+  function setCursorPosition(pos, elem) {
+    elem.focus();
+    if (elem.setSelectionRange) elem.setSelectionRange(pos, pos);
+    else if (elem.createTextRange) {
+      var range = elem.createTextRange();
+      range.collapse(true);
+      range.moveEnd("character", pos);
+      range.moveStart("character", pos);
+      range.select()
+    }
+  }
+
+  function mask(event) {
+    let matrix = "+7 (___) ___ ____",
+      i = 0,
+      def = matrix.replace(/\D/g, ""),
+      val = this.value.replace(/\D/g, "");
+    if (def.length >= val.length) val = def;
+    this.value = matrix.replace(/./g, function (a) {
+      return /[_\d]/.test(a) && i < val.length ? val.charAt(i++) : i >= val.length ? "" : a
+    });
+    if (event.type == "blur") {
+      if (this.value.length == 2) this.value = ""
+    } else setCursorPosition(this.value.length, this)
+  };
+  let inputPopup = document.querySelector(".popup-phone");
+  let inputFooter = document.querySelector(".feedback-phone");
+  inputPopup.addEventListener("input", mask, false);
+  inputPopup.addEventListener("focus", mask, false);
+  inputPopup.addEventListener("blur", mask, false);
+  inputFooter.addEventListener("input", mask, false);
+  inputFooter.addEventListener("focus", mask, false);
+  inputFooter.addEventListener("blur", mask, false);
+});
 

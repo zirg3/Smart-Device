@@ -68,10 +68,10 @@
       </div>
       <div class="page-header__form">
         <ul>
-          <li><a href="malito:info@sd.ru"><img src="img/mail.svg" alt="емеил" width="18" height="18">
+          <li><a class="page-header__mail" href="malito:info@sd.ru"><img src="img/mail.svg" alt="емеил" width="18" height="18">
             <p>info@sd.ru</p>
           </a></li>
-          <li><a href="tel:+7495005252"><img src="img/phone-call.svg" alt="телефон" width="18" height="18">
+          <li><a class="page-header__tel" href="tel:+7495005252"><img src="img/phone-call.svg" alt="телефон" width="18" height="18">
             <p>+7 (495) 000 52 52</p>
           </a></li>
           <li class="page-header__call-back"><a href="#" class="page-header__call">
@@ -160,17 +160,17 @@
         <h2>Service Device предлагает следующие товары и услуги</h2>
         <ul>
           <li class="goods-services__goods goods-services__goods--1"><a class="goods-services__link" href="#">
-              <h3>Производство<br> печатных плат</h3>
+              <h3>Производство печатных плат</h3>
               <div class="goods-services__pointer"><span></span></div>
             </a>
           </li>
           <li class="goods-services__goods goods-services__goods--2"><a class="goods-services__link" href="#">
-              <h3>Монтаж печатных<br> плат</h3>
+              <h3>Монтаж печатных плат</h3>
               <div class="goods-services__pointer"><span></span></div>
             </a>
           </li>
           <li class="goods-services__goods goods-services__goods--3"><a class="goods-services__link" href="#">
-              <h3>Комплектующие<br> для светотехники</h3>
+              <h3>Комплектующие для светотехники</h3>
               <div class="goods-services__pointer"><span></span></div>
             </a>
           </li>
@@ -186,7 +186,7 @@
             <div class="feedback-form__input">
               <input type="text" placeholder="Имя" id="feedback-name" required="">
               <label for="feedback-name" class="visually-hidden">Ваше имя</label>
-              <input type="number" placeholder="Телефон" id="feedback-phone" required="">
+              <input class="feedback-phone" type="tel" placeholder="Телефон" id="feedback-phone" required="">
               <label for="feedback-phone" class="visually-hidden">Ваш телефон</label>
             </div>
             <textarea id="question" placeholder="Ваш вопрос" required=""></textarea>
@@ -275,7 +275,7 @@
     <form method="post" action="#">
       <input type="text" placeholder="Имя" id="popup-name" required="">
       <label for="popup-name" class="visually-hidden">Ваше имя</label>
-      <input type="number" placeholder="Телефон" id="popup-phone" required="">
+      <input class="popup-phone" type="tel" placeholder="Телефон" id="popup-phone" required="">
       <label for="popup-phone" class="visually-hidden">Ваш телефон</label>
       <textarea id="popup-question" placeholder="Ваш вопрос" required=""></textarea>
       <label for="popup-question" class="visually-hidden">Задайте ваш вопрос</label>
@@ -293,8 +293,7 @@
     </div>
   </section>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/lib.js"></script>
   <script src="js/script.js"></script>
-  <script src="js/picturefill.min.js"></script>
 </body>
 </html>
