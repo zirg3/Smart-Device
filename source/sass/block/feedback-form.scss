@@ -97,7 +97,7 @@
   cursor: pointer;
 }
 
-.feedback-form__input input::placeholder,
+.feedback-form__inputs input::placeholder,
 .feedback-form__wrap form textarea::placeholder {
   font-family: $pt-mono;
   font-style: normal;
@@ -108,7 +108,7 @@
   color: $white;
 }
 
-.feedback-form__input input,
+.feedback-form__inputs input,
 .feedback-form__wrap form textarea {
   background-color: #19baff;
   border: none;
@@ -121,12 +121,12 @@
   line-height: 22px;
 }
 
-.feedback-form__input {
+.feedback-form__inputs {
   display: flex;
   justify-content: space-between;
 }
 
-.feedback-form__input input {
+.feedback-form__inputs input {
   width: 270px;
   min-height: 50px;
   padding-left: 21px;
@@ -217,7 +217,7 @@
     padding: 13px 0 0 22px;
   }
 
-  .feedback-form__input input {
+  .feedback-form__inputs input {
     width: 280px;
   }
 
@@ -263,7 +263,7 @@
     margin-bottom: 23px;
   }
 
-  .feedback-form__input {
+  .feedback-form__inputs {
     display: block;
   }
 
@@ -276,7 +276,7 @@
     min-height: 110px;
   }
 
-  .feedback-form__input input {
+  .feedback-form__inputs input {
     margin-bottom: 30px;
     width: 100%;
   }
@@ -306,7 +306,7 @@
     height: 8px;
   }
 
-  .feedback-form__input input::placeholder,
+  .feedback-form__inputs input::placeholder,
   .feedback-form__wrap form textarea::placeholder {
     line-height: 26px;
   }

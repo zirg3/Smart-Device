@@ -8,10 +8,9 @@
   margin: 0 auto;
   max-width: 1210px;
   padding: 0 20px;
-
 }
 
-.goods-services__wrap h2 {
+.goods-services .wrapper h2 {
   font-family: $roboto-con;
   font-style: normal;
   font-weight: normal;
@@ -24,7 +23,7 @@
   padding-bottom: 54px;
 }
 
-.goods-services__wrap ul li a h3 {
+.goods-services__goods a h3 {
   font-family: $roboto-con;
   font-style: normal;
   font-weight: normal;
@@ -33,22 +32,22 @@
   color: $white;
   display: flex;
   margin: 0;
-  width: 307px;
-  padding: 50px 91px 60px 40px;
+  width: 100%;
+  padding: 50px 95px 60px 40px;
 }
 
-.goods-services__wrap ul li a {
+.goods-services__goods a {
   display: flex;
 }
 
-.goods-services__wrap ul {
+.goods-services .wrapper ul {
   display: flex;
   padding-bottom: 75px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.goods-services__wrap ul li {
+.goods-services__goods {
   min-height: 620px;
   max-width: 370px;
   display: flex;
@@ -69,15 +68,15 @@
 
 }
 
-.goods-services__goods--1 {
+.goods-services__goods-production {
   background-image: url("../img/goods-desk-1.jpg");
 }
 
-.goods-services__goods--2 {
+.goods-services__goods-installation {
   background-image: url("../img/goods-desk-2.jpg");
 }
 
-.goods-services__goods--3 {
+.goods-services__goods-components {
   background-image: url("../img/goods-desk-3.jpg");
 }
 
@@ -88,21 +87,31 @@
   background-color: $blue;
 }
 
-.goods-services__pointer span::before {
+
+
+.goods-services__pointer {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.goods-services__pointer::before {
+  content: "";
+  width: 63px;
+  height: 63px;
+  background-color: #00b2ff;
+}
+
+.goods-services__pointer::after {
   position: absolute;
   content: "";
-  top: 25px;
-  left: 25px;
+  bottom: 21px;
+  left: 23px;
   width: 15px;
   height: 15px;
   border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(-45deg);
-}
-
-.goods-services__pointer {
-  display: flex;
-  align-items: flex-end;
 }
 
 @media (max-width: 1024px) {}
@@ -113,7 +122,7 @@
     min-width: 500px;
   }
 
-  .goods-services__wrap h2 {
+  .goods-services .wrapper h2 {
     font-size: 32px;
     line-height: 45px;
     padding-top: 50px;
@@ -122,7 +131,7 @@
     padding-left: 5px;
   }
 
-  .goods-services__wrap ul li {
+  .goods-services__goods {
     max-width: 100%;
     margin-bottom: 46px;
     flex-basis: calc(100%/1);
@@ -130,33 +139,33 @@
     margin-right: 0;
   }
 
-  .goods-services__wrap ul {
+  .goods-services .wrapper ul {
     padding-bottom: 32px;
   }
 
-  .goods-services__wrap ul li a {
+  .goods-services__goods a {
     width: 100%;
   }
 
-  .goods-services__wrap ul li a h3 {
+  .goods-services__goods a h3 {
     padding: 40px 70px 60px 50px;
     max-width: 285px;
     margin-right: auto;
   }
 
-  .goods-services__wrap ul li:not(:nth-child(3n)) {
+  .goods-services__goods:not(:nth-child(3n)) {
     margin-right: 0;
   }
 
-  .goods-services__goods--1 {
+  .goods-services__goods-production {
     background-image: url("../img/goods-tablet-1.jpg");
   }
 
-  .goods-services__goods--2 {
+  .goods-services__goods-installation {
     background-image: url("../img/goods-tablet-2.jpg");
   }
 
-  .goods-services__goods--3 {
+  .goods-services__goods-components {
     background-image: url("../img/goods-tablet-3.jpg");
   }
 }
@@ -167,11 +176,11 @@
     margin-top: 65px;
   }
 
-  .goods-services__wrap {
+  .goods-services .wrapper {
     padding: 0 16px;
   }
 
-  .goods-services__wrap h2 {
+  .goods-services .wrapper h2 {
     font-size: 28px;
     line-height: 39px;
     padding-right: 0px;
@@ -179,34 +188,35 @@
     padding-bottom: 40px;
   }
 
-  .goods-services__wrap ul {
+  .goods-services .wrapper ul {
     justify-content: center;
     padding-bottom: 36px;
   }
 
-  .goods-services__wrap ul li {
+  .goods-services__goods {
     max-width: 100%;
     min-height: 256px;
     margin-bottom: 30px;
   }
-  .goods-services__wrap ul li a h3 {
+
+  .goods-services__goods a h3 {
     padding: 19px 25px 60px 35px;
   }
 
-  .goods-services__goods--1 {
+  .goods-services__goods-production {
     background-image: url("../img/goods-mob-1.jpg");
   }
 
-  .goods-services__goods--2 {
+  .goods-services__goods-installation {
     background-image: url("../img/goods-mob-2.jpg");
   }
 
-  .goods-services__goods--3 {
+  .goods-services__goods-components {
     background-image: url("../img/goods-mob-3.jpg");
   }
 
-  .goods-services__pointer span::before {
-    top: 27px;
+  .goods-services__pointer::after {
+    bottom: 27px;
     left: 26px;
     width: 8px;
     height: 8px;
