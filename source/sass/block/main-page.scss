@@ -34,7 +34,11 @@
   max-width: 680px;
 }
 
-.main-page p:nth-child(2)::before {
+.main-page p:nth-child(2) {
+  position: relative;
+}
+
+.main-page__white-line {
   content: "";
   position: absolute;
   top: 18px;
@@ -136,7 +140,7 @@
     margin-left: 119px;
   }
 
-  .main-page p:nth-child(2)::before {
+  .main-page__white-line {
     width: 33px;
     left: -47px;
   }
@@ -163,6 +167,7 @@
   .main-page {
     padding-left: 17px;
     padding-right: 16px;
+    margin:230px auto 0;
   }
 
   .main-page h1 {
@@ -178,7 +183,7 @@
     margin-left: 49px;
   }
 
-  .main-page p:nth-child(2)::before {
+  .main-page__white-line {
     top: 15px;
     left: -48px;
   }

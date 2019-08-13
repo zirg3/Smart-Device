@@ -52,14 +52,18 @@
   line-height: 14px;
 }
 
-.page-header__form ul {
+.page-header__contacts {
   margin: 2px 3px 0 0;
   display: flex;
   align-items:center;
   flex-wrap: wrap;
 }
 
-.page-header__form ul a {
+.page-header__svg {
+  margin-right: 8px;
+}
+
+.page-header__container a {
   display: flex;
   font-style: normal;
   font-weight: normal;
@@ -79,14 +83,13 @@
   transition: All 1s ease;
 }
 
-.page-header__form li {
-  min-width: 25%;
-  max-width: 54%;
-  padding-left: 48px;
-}
-
-.page-header__form li:nth-child(5n + 1) {
-  padding-right: 40px;
+.page-header__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 180px;
+  max-width: 100%;
+  margin-left: 50px;
 }
 
 .page-header__call {
@@ -100,7 +103,7 @@
   max-width: 180px;
 }
 
-.page-header__form ul img {
+.page-header__contacts ul img {
   margin-right: 16px;
 }
 
@@ -144,18 +147,6 @@
 }
 
 @media (max-width: 1024px) {
-  .page-header__form li {
-    margin-left: 10px;
-  }
-
-  .page-header__form li:nth-child(1) {
-    margin-right: 0px;
-  }
-
-  .page-header__form ul img {
-    margin-right: 10px;
-  }
-
   .page-header__scroll-link {
     display: none;
   }
@@ -172,38 +163,28 @@
     padding-top: 22px;
   }
 
-  .page-header__form ul p,
-  .page-header__call {
-    display: none;
+  .page-header__container {
+    min-width: 0px;
+    margin-left: 0px;
   }
 
-  .page-header__form ul img {
+  .page-header__container:nth-child(1) {
+    padding-right: 32px;
+  }
+
+  .page-header__contacts {
+    padding-bottom: 8px;
+  }
+
+  .page-header__svg {
     width: 25px;
-    height: 18px;
+    height: 25px;
     margin-right: 0;
   }
 
-  .page-header__form li:nth-child(2) img {
-    width: 25px;
-    height: 24px;
-  }
-
-  .page-header__form li {
-    margin-left: 3px;
-    padding-left: 0;
-  }
-
-  .page-header__form ul {
-    margin: 10px 0 0 0;
-    min-width: auto;
-  }
-
-  .page-header__form li:nth-child(1) {
-    margin-right: 30px;
-  }
-
-  .page-header__form li:nth-child(5n+1) {
-    padding-right: 0;
+  .page-header__container a p,
+  .page-header__call {
+    display: none;
   }
 
   .page-header__scroll-link {
@@ -232,12 +213,7 @@
     display: none;
   }
 
-  .page-header__form ul {
-    margin: 6px 0 0 0;
-    min-width: 70px;
-  }
-
-  .page-header__form li {
-    margin-left: -5px;
+  .page-header__container:nth-child(1) {
+    padding-right: 20px;
   }
 }
