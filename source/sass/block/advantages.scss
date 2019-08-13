@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 
-.advantages__icon-deadlines svg {
+.advantages__card-deadlines {
   position: absolute;
   width: 30px;
   height: 36px;
@@ -17,7 +17,7 @@
   transition: All 1s ease;
 }
 
-.advantages__icon-suppliers svg {
+.advantages__card-suppliers {
   position: absolute;
   width: 35px;
   height: 35px;
@@ -26,7 +26,7 @@
   transition: All 1s ease;
 }
 
-.advantages__icon-confidentiality svg {
+.advantages__card-confidentiality {
   position: absolute;
   width: 36px;
   height: 31px;
@@ -35,7 +35,7 @@
   transition: All 1s ease;
 }
 
-.advantages__icon-cost svg {
+.advantages__card-cost {
   position: absolute;
   width: 35px;
   height: 35px;
@@ -44,7 +44,7 @@
   transition: All 1s ease;
 }
 
-.advantages ul h2 {
+.advantages__card h2 {
   font-family: $roboto-con;
   font-style: normal;
   font-weight: normal;
@@ -55,7 +55,7 @@
   transition: All 1s ease;
 }
 
-.advantages ul li {
+.advantages__card {
   border: 1px solid #EBEBEB;
   border-left: 3px solid $blue;
   flex-basis: calc((100% / 2) - 15px);
@@ -89,7 +89,7 @@
   }
 }
 
-.advantages ul p {
+.advantages__card p {
   font-family: $pt-mono;
   font-style: normal;
   font-weight: normal;
@@ -105,7 +105,7 @@
         padding-top: 55px;
   }
 
-  .advantages ul li {
+  .advantages__card {
     padding: 46px 18px 29px 25px;
     margin: 0 0 28px;
     border-left: 2px solid #00b2ff;
@@ -113,29 +113,29 @@
     min-width: 250px;
   }
 
-  .advantages ul h2 {
+  .advantages__card h2 {
     margin-bottom: 10px;
   }
 
-  .advantages__icon-deadlines svg {
+  .advantages__card-deadlines {
     width: 30px;
     height: 36px;
     top: 24px;
   }
 
-  .advantages__icon-suppliers svg {
+  .advantages__card-suppliers {
     width: 32px;
     height: 32px;
     top: 23px;
   }
 
-  .advantages__icon-confidentiality svg {
+  .advantages__card-confidentiality {
     width: 30px;
     height: 26px;
     top: 26px;
   }
 
-  .advantages__icon-cost svg {
+  .advantages__card-cost {
     width: 32px;
     height: 32px;
     top: 23px;
@@ -147,7 +147,7 @@
     padding-top: 40px;
   }
 
-  .advantages ul li {
+  .advantages__card {
     flex-basis: calc(100%/1);
     margin-bottom: 29px;
     padding: 54px 15px 30px 25px;
@@ -162,16 +162,16 @@
     justify-content: center;
   }
 
-  .advantages ul h2 {
+  .advantages__card h2 {
     font-size: 20px;
     line-height: 28px;
   }
 
-  .advantages ul li:nth-child(2) {
+  .advantages__card:nth-child(2) {
     padding-right: 10px;
   }
 
-  .advantages ul li:nth-child(3) h2 {
+  .advantages__card:nth-child(3) h2 {
     max-width: 230px;
   }
 }
