@@ -20,22 +20,30 @@
 
 .page-header__logo {
   display: inherit;
+  transition: All 1s ease;
 }
 
-.page-header__logo-text {
-  margin: 4px 0px 0 16px;
+.page-header__logo:hover {
+  opacity: .4;
+  transition: All 1s ease;
 }
 
-.page-header__logo-text p {
+.page-header__logo a {
+  display: flex;
+  width: 200px;
+}
+
+.page-header__logo a p {
   font-family: $roboto-con;
   color: $white;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
-  line-height: 29px;
+  line-height: 18px;
+  padding: 9px 0 0 14px;
 }
 
-.page-header__logo-text span {
+.page-header__logo a p span {
   font-family: $roboto;
   color: #788891;
   font-style: normal;
@@ -215,12 +223,12 @@
     padding-right: 14px;
   }
 
-  .page-header__logo-img img{
+  .page-header__logo a img {
     width: 38px;
     height: 38px;
   }
 
-  .page-header__logo-text {
+  .page-header__logo a p {
     display: none;
   }
 

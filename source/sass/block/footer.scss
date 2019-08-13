@@ -51,10 +51,16 @@
 
 .footer__logo-img a {
   display: flex;
-  width: 55px;
+  width: 215px;
+  transition: All 1s ease;
 }
 
-.footer__logo-img p {
+.footer__logo-img a:hover {
+  opacity: 0.6;
+  transition: All 1s ease;
+}
+
+.footer__logo-img a p {
   font-family: $roboto-con;
   font-style: normal;
   font-weight: bold;
@@ -70,7 +76,7 @@
   margin-top: 15px;
 }
 
-.footer__logo-img p span {
+.footer__logo-img a p span {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -184,22 +190,22 @@
   transition: All 1s ease;
 }
 
-.footer__copyright ul {
+.footer__copyright-text {
   display: flex;
   justify-content: space-between;
   padding-bottom: 25px;
   padding-top: 15px;
 }
 
-.footer__copyright ul li:nth-child(4) {
+.footer__copyright-text p:nth-child(4) {
   padding-left: 345px;
 }
 
-.footer__copyright ul li:nth-child(2) {
+.footer__copyright-text p:nth-child(2) {
   padding-right: 69px;
 }
 
-.footer__copyright ul li {
+.footer__copyright-text p {
   font-family: $pt-mono;
   font-style: normal;
   font-weight: normal;
@@ -300,15 +306,15 @@
     margin: 38px 0 25px;
   }
 
-  .footer__copyright ul li:nth-child(1) {
+  .footer__copyright-text p:nth-child(1) {
     display: none;
   }
 
-  .footer__copyright ul li:nth-child(2) {
+  .footer__copyright-text p:nth-child(2) {
     display: none;
   }
 
-  .footer__copyright ul li:nth-child(4) {
+  .footer__copyright-text p:nth-child(4) {
     padding-left: 0;
   }
 
@@ -317,7 +323,7 @@
     padding-right: 24px;
   }
 
-  .footer__copyright ul {
+  .footer__copyright-text {
     padding-bottom: 30px;
     padding-top: 20px;
   }
@@ -366,14 +372,14 @@
     min-width: auto;
   }
 
-  .footer__copyright ul {
+  .footer__copyright-text {
     flex-direction: column;
     align-items: center;
     padding-bottom: 31px;
     padding-top: 53px;
   }
 
-  .footer__copyright ul li:nth-child(4) {
+  .footer__copyright-text p:nth-child(4) {
     padding-top: 20px;
   }
 
