@@ -65,7 +65,7 @@
   opacity: 0.7;
 }
 
-.page-header__form ul li p:hover {
+.page-header__call:hover {
   color: $blue;
   opacity: 1;
 }
@@ -94,7 +94,7 @@
   margin-right: 16px;
 }
 
-.page-header__call-back p {
+.page-header__call {
   font-family: $roboto-con;
   font-style: normal;
   font-weight: bold;
@@ -107,6 +107,9 @@
   padding: 14px 23px 13px 25px;
   border-radius: 8px;
   letter-spacing: 1px;
+  background: transparent;
+  outline: none;
+  color: $white;
 }
 
 .page-header__scroll-link {
@@ -158,7 +161,8 @@
     padding-top: 22px;
   }
 
-  .page-header__form ul p {
+  .page-header__form ul p,
+  .page-header__call {
     display: none;
   }
 
