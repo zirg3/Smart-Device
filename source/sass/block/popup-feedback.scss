@@ -74,12 +74,14 @@
   border-radius: 5px;
   text-transform: uppercase;
   cursor: pointer;
+  transition: All 1s ease;
 }
 
 .popup-feedback__send-btn:hover {
   background-color: $white;
   color: $blue;
   border: 1px solid $blue;
+  transition: All 1s ease;
 }
 
 .popup-feedback form input::placeholder,

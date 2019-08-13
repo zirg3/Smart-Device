@@ -14,6 +14,7 @@
   height: 36px;
   top: 35px;
   fill: $blue;
+  transition: All 1s ease;
 }
 
 .advantages__icon-suppliers svg {
@@ -22,6 +23,7 @@
   height: 35px;
   top: 35px;
   fill: $blue;
+  transition: All 1s ease;
 }
 
 .advantages__icon-confidentiality svg {
@@ -30,6 +32,7 @@
   height: 31px;
   top: 35px;
   fill: $blue;
+  transition: All 1s ease;
 }
 
 .advantages__icon-cost svg {
@@ -38,6 +41,7 @@
   height: 35px;
   top: 35px;
   fill: $blue;
+  transition: All 1s ease;
 }
 
 .advantages ul h2 {
@@ -48,6 +52,7 @@
   line-height: 34px;
   color: $blue;
   position: relative;
+  transition: All 1s ease;
 }
 
 .advantages ul li {
@@ -60,6 +65,7 @@
   position: relative;
   max-width: 49%;
   background-color: $white;
+  transition: All 1s ease;
 
   &:hover {
     background-color: $blue;
@@ -67,11 +73,18 @@
     color: $white;
     border: 1px solid $blue;
     border-left: 3px solid $blue;
+    transition: All 1s ease;
     & h2 {
+      transition: All 1s ease;
+      color: $white;
+    }
+    & p {
+      transition: All 1s ease;
       color: $white;
     }
     & svg {
       fill: $white;
+      transition: All 1s ease;
     }
   }
 }
@@ -83,8 +96,8 @@
   font-size: 16px;
   line-height: 21px;
   color: #666;
+  transition: All 1s ease;
 }
-
 
 @media (max-width: 1024px) {}
 @media (max-width: 1023px) {
