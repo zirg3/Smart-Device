@@ -2,7 +2,7 @@
   padding-top: 112px;
 }
 
-.advantages ul {
+.advantages__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -158,7 +158,7 @@
     max-width: 100%;
   }
 
-  .advantages ul {
+  .advantages__list {
     justify-content: center;
   }
 

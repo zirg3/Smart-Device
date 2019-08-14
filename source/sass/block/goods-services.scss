@@ -38,7 +38,7 @@
   padding: 45px 155px 0 43px;
 }
 
-.goods-services .wrapper ul {
+.goods-services__list {
   display: flex;
   padding-bottom: 75px;
   flex-wrap: wrap;
@@ -139,7 +139,7 @@
     margin-right: 0;
   }
 
-  .goods-services .wrapper ul {
+  .goods-services__list {
     padding-bottom: 30px;
   }
 
@@ -186,7 +186,7 @@
     padding-bottom: 40px;
   }
 
-  .goods-services .wrapper ul {
+  .goods-services__list {
     justify-content: center;
     padding-bottom: 36px;
   }
@@ -208,7 +208,7 @@
     height: 8px;
     border-width: 0 2px 2px 0;
   }
-  
+
   .goods-services__pointer {
     margin-top: 50px;
   }
