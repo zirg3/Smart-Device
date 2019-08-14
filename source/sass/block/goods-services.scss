@@ -19,8 +19,7 @@
   color: $white;
   letter-spacing: 0.03rem;
   margin: 0;
-  padding-top: 87px;
-  padding-bottom: 54px;
+  padding: 87px 0 54px 0;
 }
 
 .goods-services__goods a h3 {
@@ -125,10 +124,7 @@
   .goods-services .wrapper h2 {
     font-size: 32px;
     line-height: 45px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 80px;
-    padding-left: 5px;
+    padding: 50px 80px 50px 5px;
   }
 
   .goods-services__goods {
@@ -184,6 +180,7 @@
     padding-right: 0px;
     padding-left: 5px;
     padding-bottom: 40px;
+    padding: 50px 0 40px 5px;
   }
 
   .goods-services__list {
