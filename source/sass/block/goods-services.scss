@@ -33,11 +33,9 @@
   display: flex;
   margin: 0;
   width: 100%;
-  padding: 50px 95px 60px 40px;
-}
-
-.goods-services__goods a {
-  display: flex;
+  position: relative;
+  z-index: 25;
+  padding: 45px 155px 0 43px;
 }
 
 .goods-services .wrapper ul {
@@ -51,37 +49,34 @@
   min-height: 620px;
   max-width: 370px;
   display: flex;
-  justify-content: flex-end;
-  background-repeat: no-repeat;
-  background-size: cover;
   flex-basis: 33.333%;
   margin-bottom: 50px;
   width: calc(30% - 30px);
+  overflow: hidden;
 }
 
-.goods-services__link:hover {
-  background-color: rgba(27, 45, 55, .2);
+.goods-services__goods:hover {
   transition: All 0.3s ease;
   border: 1px solid $blue;
+  overflow: hidden;
+}
+
+.goods-services__goods {
+  display: block;
+  position: relative;
+  transition: All 0.3s ease;
+  border: 1px solid transparent;
+  width: 100%;
 }
 
 .goods-services__link {
-  background-color: rgba(27, 45, 55, 0.8);
-  transition: All 0.3s ease;
-  border: 1px solid transparent;
-
+  opacity: 0.3;
 }
 
-.goods-services__goods-production {
-  background-image: url("../img/goods-desk-1.jpg");
-}
-
-.goods-services__goods-installation {
-  background-image: url("../img/goods-desk-2.jpg");
-}
-
-.goods-services__goods-components {
-  background-image: url("../img/goods-desk-3.jpg");
+.goods-services__link img {
+  position: absolute;
+  width: auto;
+  height: 100%;
 }
 
 .goods-services__pointer span {
@@ -91,12 +86,13 @@
   background-color: $blue;
 }
 
-
-
 .goods-services__pointer {
   display: flex;
   align-items: flex-end;
   position: relative;
+  width: 63px;
+  margin-left: auto;
+  margin-top: 450px;
 }
 
 .goods-services__pointer::before {
@@ -144,7 +140,7 @@
   }
 
   .goods-services .wrapper ul {
-    padding-bottom: 32px;
+    padding-bottom: 30px;
   }
 
   .goods-services__goods a {
@@ -152,7 +148,7 @@
   }
 
   .goods-services__goods a h3 {
-    padding: 40px 70px 60px 50px;
+    padding: 37px 70px 60px 43px;
     max-width: 285px;
     margin-right: auto;
   }
@@ -161,16 +157,14 @@
     margin-right: 0;
   }
 
-  .goods-services__goods-production {
-    background-image: url("../img/goods-tablet-1.jpg");
+  .goods-services__link img {
+    position: absolute;
+    width: 100%;
+    height: auto;
   }
 
-  .goods-services__goods-installation {
-    background-image: url("../img/goods-tablet-2.jpg");
-  }
-
-  .goods-services__goods-components {
-    background-image: url("../img/goods-tablet-3.jpg");
+  .goods-services__pointer {
+    margin-top: 34px;
   }
 }
 
@@ -204,19 +198,7 @@
   }
 
   .goods-services__goods a h3 {
-    padding: 19px 25px 60px 35px;
-  }
-
-  .goods-services__goods-production {
-    background-image: url("../img/goods-mob-1.jpg");
-  }
-
-  .goods-services__goods-installation {
-    background-image: url("../img/goods-mob-2.jpg");
-  }
-
-  .goods-services__goods-components {
-    background-image: url("../img/goods-mob-3.jpg");
+    padding: 21px 80px 60px 34px;
   }
 
   .goods-services__pointer::after {
@@ -225,5 +207,9 @@
     width: 8px;
     height: 8px;
     border-width: 0 2px 2px 0;
+  }
+  
+  .goods-services__pointer {
+    margin-top: 50px;
   }
 }
