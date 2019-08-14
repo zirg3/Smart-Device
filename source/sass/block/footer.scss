@@ -27,13 +27,13 @@
 .footer__confidentiality,
 .footer__developed {
   color: #1b2d37;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .footer__confidentiality:hover,
 .footer__developed:hover {
   color: $blue;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .footer__address {
@@ -52,12 +52,12 @@
 .footer__logo-img a {
   display: flex;
   width: 215px;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .footer__logo-img a:hover {
   opacity: 0.6;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .footer__logo-img a p {
@@ -91,13 +91,13 @@
 
 .footer__logo ul li svg {
   fill: #CDCDCD;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .footer__logo ul li svg:hover {
   fill: $blue;
   cursor: pointer;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .footer__logo ul {
@@ -147,12 +147,12 @@
   line-height: 25px;
   color: #1B2D37;
   opacity: 0.5;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .footer__nav ul li a:hover {
   opacity: 1;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .footer__address h3 {
@@ -181,13 +181,13 @@
 
 .footer__address a {
   display: block;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .footer__address a:hover {
   opacity: 1;
   cursor: pointer;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .footer__copyright-text {
@@ -409,7 +409,7 @@
     padding-top: 22px;
     padding-left: 10px;
   }
-  
+
   .footer__logo ul {
     margin-top: 30px;
   }

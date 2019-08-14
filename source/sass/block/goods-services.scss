@@ -61,13 +61,13 @@
 
 .goods-services__link:hover {
   background-color: rgba(27, 45, 55, .2);
-  transition: All 1s ease;
+  transition: All 0.3s ease;
   border: 1px solid $blue;
 }
 
 .goods-services__link {
   background-color: rgba(27, 45, 55, 0.8);
-  transition: All 1s ease;
+  transition: All 0.3s ease;
   border: 1px solid transparent;
 
 }

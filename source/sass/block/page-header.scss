@@ -20,12 +20,12 @@
 
 .page-header__logo {
   display: inherit;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .page-header__logo:hover {
   opacity: .4;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .page-header__logo a {
@@ -80,7 +80,7 @@
 .page-header__call:hover {
   color: $blue;
   opacity: 1;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .page-header__container {
@@ -94,7 +94,7 @@
 
 .page-header__call {
   max-width: 180px;
-  transition: All 1s ease;
+  transition: All 0.3s ease;
 }
 
 .page-header__call:hover {
