@@ -75,6 +75,7 @@
         if (this.value.length == 2) this.value = ""
       } else setCursorPosition(this.value.length, this)
     };
+    
     let inputPopup = document.querySelector(".popup-phone");
     let inputFooter = document.querySelector(".feedback-phone");
     inputPopup.addEventListener("input", mask, false);
