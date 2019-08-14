@@ -180,7 +180,7 @@
 @media (max-width: 1023px) {
   .feedback-form {
     min-width: 500px;
-    background-image: none;
+    background-image: none !important;
   }
 
   .feedback-form {
@@ -297,6 +297,14 @@
   .feedback-form__inputs input::placeholder,
   .feedback-form__wrap form textarea::placeholder {
     line-height: 26px;
+  }
+
+  .feedback-form__consent::before {
+    left: 0;
+  }
+
+  .feedback-form__input-consent:checked+.feedback-form__consent::after {
+    left: 3px;
   }
 }
 
