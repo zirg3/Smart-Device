@@ -34,7 +34,7 @@
   width: 100%;
   position: relative;
   z-index: 25;
-  padding: 45px 155px 0 43px;
+  padding: 45px 155px 65px 43px;
 }
 
 .goods-services__list {
@@ -69,13 +69,21 @@
 }
 
 .goods-services__link {
-  opacity: 0.3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .goods-services__link img {
-  position: absolute;
   width: auto;
   height: 100%;
+}
+
+.goods-services__container {
+  opacity: 0.3;
+  height: 100%;
+  position: absolute
 }
 
 .goods-services__pointer span {
@@ -88,10 +96,10 @@
 .goods-services__pointer {
   display: flex;
   align-items: flex-end;
-  position: relative;
+  position: absolute;
   width: 63px;
-  margin-left: auto;
-  margin-top: 450px;
+  right: 0;
+  bottom: 0;
 }
 
 .goods-services__pointer::before {
@@ -161,6 +169,11 @@
 
   .goods-services__pointer {
     margin-top: 34px;
+  }
+
+  .goods-services__container {
+    width: 100%;
+    height: auto;
   }
 }
 
