@@ -135,7 +135,10 @@
   min-height: 154px;
   resize: none;
   margin-top: 45px;
-  padding: 13px 0 0 22px;
+  padding-top: 13px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 22px;
   overflow: auto;
 }
 
@@ -202,7 +205,7 @@
   .feedback-form__wrap form textarea {
     width: 100%;
     min-height: 170px;
-    padding: 5px 0 0 22px;
+    padding-top: 5px;
   }
 
   .feedback-form__inputs input {
@@ -276,7 +279,6 @@
 
   .feedback-form__btn label {
     width: 100%;
-    padding-left: 50px;
     margin-top: 30px;
     padding-left: 35px;
   }

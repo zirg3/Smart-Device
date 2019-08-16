@@ -304,11 +304,12 @@
     flex-basis: 50%;
     max-width: 360px;
     padding-left: 0;
-    padding: 0px 0px 0 15px;
+    padding-left: 15px;
   }
 
   .footer__address h3 {
-    margin: 38px 0 25px;
+    margin-top: 38px;
+    margin-bottom: 25px;
   }
 
   .footer__copyright-text p:nth-child(1) {
@@ -351,7 +352,6 @@
   }
 
   .footer__wrapper {
-    padding: 0;
     display: block;
   }
 
@@ -373,7 +373,6 @@
   .footer__address {
     flex-basis: 100%;
     max-width: 100%;
-    padding-right: 0;
     min-width: auto;
   }
 
@@ -389,7 +388,8 @@
   }
 
   .footer__address h3 {
-    margin: 25px 0 34px;
+    margin-top: 25px;
+    margin-bottom: 34px;
     position: relative;
   }
 

@@ -132,7 +132,10 @@
   .goods-services .wrapper h2 {
     font-size: 32px;
     line-height: 45px;
-    padding: 50px 80px 50px 5px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 5px;
   }
 
   .goods-services__goods {
@@ -152,7 +155,9 @@
   }
 
   .goods-services__goods a h3 {
-    padding: 37px 70px 60px 43px;
+    padding-top: 37px;
+    padding-right: 70px;
+    padding-bottom: 60px;
     max-width: 285px;
     margin-right: auto;
   }
@@ -190,10 +195,9 @@
   .goods-services .wrapper h2 {
     font-size: 28px;
     line-height: 39px;
-    padding-right: 0px;
-    padding-left: 5px;
+    padding-top: 50px;
+    padding-right: 0;
     padding-bottom: 40px;
-    padding: 50px 0 40px 5px;
   }
 
   .goods-services__list {
@@ -208,7 +212,9 @@
   }
 
   .goods-services__goods a h3 {
-    padding: 21px 80px 60px 34px;
+    padding-top: 21px;
+    padding-right: 80px;
+    padding-left: 34px;
   }
 
   .goods-services__pointer::after {

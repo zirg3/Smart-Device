@@ -60,7 +60,10 @@
   border-left: 3px solid $blue;
   flex-basis: calc((100% / 2) - 15px);
   margin-bottom: 29px;
-  padding: 73px 35px 30px 43px;
+  padding-top: 73px;
+  padding-right: 35px;
+  padding-bottom: 30px;
+  padding-left: 43px;
   min-height: 300px;
   position: relative;
   max-width: 49%;
@@ -102,11 +105,14 @@
 @media (max-width: 1024px) {}
 @media (max-width: 1023px) {
   .advantages {
-        padding-top: 55px;
+    padding-top: 55px;
   }
 
   .advantages__card {
-    padding: 46px 18px 29px 25px;
+    padding-top: 46px;
+    padding-right: 18px;
+    padding-bottom: 29px;
+    padding-left: 25px;
     margin: 0 0 28px;
     border-left: 2px solid #00b2ff;
     min-height: auto;
@@ -150,7 +156,9 @@
   .advantages__card {
     flex-basis: calc(100%/1);
     margin-bottom: 29px;
-    padding: 54px 15px 30px 25px;
+    padding-top: 46px;
+    padding-right: 18px;
+    padding-bottom: 29px;
     margin: 0;
     margin: 0 0 21px;
     border-left: 3px solid #00b2ff;
@@ -168,7 +176,9 @@
   }
 
   .advantages__card:nth-child(2) {
+    padding-top: 54px;
     padding-right: 10px;
+    padding-bottom: 30px;
   }
 
   .advantages__card:nth-child(3) h2 {
