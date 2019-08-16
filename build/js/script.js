@@ -36,6 +36,13 @@
     back.classList.remove("popup-wrap--open");
   });
 
+  back.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.remove("popup-feedback__show");
+    scrollHid.classList.remove("scroll-hidden");
+    back.classList.remove("popup-wrap--open");
+  });
+
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
       evt.preventDefault();
@@ -75,7 +82,7 @@
         if (this.value.length == 2) this.value = ""
       } else setCursorPosition(this.value.length, this)
     };
-    
+
     let inputPopup = document.querySelector(".popup-phone");
     let inputFooter = document.querySelector(".feedback-phone");
     inputPopup.addEventListener("input", mask, false);
