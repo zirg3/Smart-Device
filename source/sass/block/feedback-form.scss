@@ -58,6 +58,9 @@
   color: $white;
   margin-top: 10px;
   opacity: 0.8;
+  display: block;
+  position: relative;
+  cursor: pointer;
 }
 
 .feedback-form__btn label:hover {
@@ -115,10 +118,6 @@
   line-height: 22px;
 }
 
-.feedback-form__wrap form textarea {
-  line-height: 32px;
-}
-
 .feedback-form__inputs {
   display: flex;
   justify-content: space-between;
@@ -140,12 +139,7 @@
   padding-bottom: 0;
   padding-left: 22px;
   overflow: auto;
-}
-
-.feedback-form__btn label {
-  display: block;
-  position: relative;
-  cursor: pointer;
+  line-height: 32px;
 }
 
 .feedback-form__btn input {
@@ -184,10 +178,6 @@
   .feedback-form {
     min-width: 500px;
     background-image: none !important;
-  }
-
-  .feedback-form {
-    background-image: none;
   }
 
   .feedback-form__wrap {
@@ -309,4 +299,3 @@
     left: 3px;
   }
 }
-

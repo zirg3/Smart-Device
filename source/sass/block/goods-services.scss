@@ -44,7 +44,17 @@
   justify-content: space-between;
 }
 
+.goods-services__goods:hover {
+  transition: All 0.3s ease;
+  border: 1px solid $blue;
+  overflow: hidden;
+}
 .goods-services__goods {
+  display: block;
+  position: relative;
+  transition: All 0.3s ease;
+  border: 1px solid transparent;
+  width: 100%;
   min-height: 620px;
   max-width: 370px;
   display: flex;
@@ -52,20 +62,6 @@
   margin-bottom: 50px;
   width: calc(30% - 30px);
   overflow: hidden;
-}
-
-.goods-services__goods:hover {
-  transition: All 0.3s ease;
-  border: 1px solid $blue;
-  overflow: hidden;
-}
-
-.goods-services__goods {
-  display: block;
-  position: relative;
-  transition: All 0.3s ease;
-  border: 1px solid transparent;
-  width: 100%;
 }
 
 .goods-services__link {

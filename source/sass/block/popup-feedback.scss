@@ -154,17 +154,14 @@
   background-color: #19baff;
 }
 
-.popup-feedback__checkbox-label span::after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
 .popup-feedback__checkbox-input:checked~span::after {
   display: block;
 }
 
 .popup-feedback__checkbox-label span::after {
+  content: "";
+  position: absolute;
+  display: none;
   left: 9px;
   top: 5px;
   width: 6px;

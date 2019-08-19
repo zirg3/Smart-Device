@@ -14,7 +14,7 @@
   height: 36px;
   top: 35px;
   fill: $blue;
-  transition: All 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .advantages__card-suppliers {
@@ -23,7 +23,7 @@
   height: 35px;
   top: 35px;
   fill: $blue;
-  transition: All 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .advantages__card-confidentiality {
@@ -32,7 +32,7 @@
   height: 31px;
   top: 35px;
   fill: $blue;
-  transition: All 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .advantages__card-cost {
@@ -41,7 +41,7 @@
   height: 35px;
   top: 35px;
   fill: $blue;
-  transition: All 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .advantages__card h2 {
@@ -52,11 +52,11 @@
   line-height: 34px;
   color: $blue;
   position: relative;
-  transition: All 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .advantages__card {
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
   border-left: 3px solid $blue;
   flex-basis: calc((100% / 2) - 15px);
   margin-bottom: 29px;
@@ -68,7 +68,7 @@
   position: relative;
   max-width: 49%;
   background-color: $white;
-  transition: All 0.3s ease;
+  transition: all 0.3s ease;
 
   &:hover {
     background-color: $blue;
@@ -76,18 +76,18 @@
     color: $white;
     border: 1px solid $blue;
     border-left: 3px solid $blue;
-    transition: All 0.3s ease;
+    transition: all 0.3s ease;
     & h2 {
-      transition: All 0.3s ease;
+      transition: all 0.3s ease;
       color: $white;
     }
     & p {
-      transition: All 0.3s ease;
+      transition: all 0.3s ease;
       color: $white;
     }
     & svg {
       fill: $white;
-      transition: All 0.3s ease;
+      transition: all 0.3s ease;
     }
   }
 }
@@ -99,7 +99,7 @@
   font-size: 16px;
   line-height: 21px;
   color: #666;
-  transition: All 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 1024px) {}
@@ -155,7 +155,6 @@
 
   .advantages__card {
     flex-basis: calc(100%/1);
-    margin-bottom: 29px;
     padding-top: 46px;
     padding-right: 18px;
     padding-bottom: 29px;
