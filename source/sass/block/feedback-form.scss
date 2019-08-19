@@ -293,9 +293,14 @@
 
   .feedback-form__consent::before {
     left: 0;
+    height: 18px;
+    width: 18px;
   }
 
   .feedback-form__input-consent:checked+.feedback-form__consent::after {
     left: 3px;
+    width: 11px;
+    height: 11px;
+    top: 3px;
   }
 }
