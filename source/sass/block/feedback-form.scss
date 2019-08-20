@@ -3,8 +3,14 @@
   background-color: $blue;
   overflow: hidden;
   content: "";
-  background-repeat: no-repeat;
-  background-position: 175px -60px;
+}
+
+.feedback-form__img img {
+  position: absolute;
+  width: 57%;
+  height: auto;
+  left: -15%;
+  top: -33%;
 }
 
 .feedback-form__wrap {
@@ -139,7 +145,7 @@
   padding-bottom: 0;
   padding-left: 22px;
   overflow: auto;
-  line-height: 32px;
+  line-height: 40px;
 }
 
 .feedback-form__btn input {
@@ -178,6 +184,10 @@
   .feedback-form {
     min-width: 500px;
     background-image: none !important;
+  }
+
+  .feedback-form__img img {
+    display: none;
   }
 
   .feedback-form__wrap {
@@ -255,6 +265,8 @@
   .feedback-form__wrap form textarea {
     margin-top: 0;
     min-height: 110px;
+    line-height: 26px;
+    padding-top: 10px;
   }
 
   .feedback-form__inputs input {

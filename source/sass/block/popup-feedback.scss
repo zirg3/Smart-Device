@@ -121,6 +121,7 @@
   margin-bottom: 20px;
   padding: 13px 0 0 22px;
   overflow: auto;
+  line-height: 40px;
 }
 
 .popup-feedback form label {
@@ -202,6 +203,7 @@
   fill: $white;
   width: 25px;
   height: 25px;
+  transition: All 0.3s ease;
 }
 
 .popup-feedback__close:hover {
@@ -210,6 +212,7 @@
   border-radius: 50%;
   width: 25px;
   height: 25px;
+  transition: All 0.3s ease;
 }
 
 @media (max-width: 1024px) {}

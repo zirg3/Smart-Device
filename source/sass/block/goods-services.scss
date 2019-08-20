@@ -41,7 +41,6 @@
   display: flex;
   padding-bottom: 75px;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .goods-services__goods:hover {
@@ -58,10 +57,13 @@
   min-height: 620px;
   max-width: 370px;
   display: flex;
-  flex-basis: 33.333%;
   margin-bottom: 50px;
-  width: calc(30% - 30px);
+  width: calc(33.333% - 20px);
   overflow: hidden;
+}
+
+.goods-services__goods:not(:nth-child(3n)) {
+  margin-right: 30px;
 }
 
 .goods-services__link {

@@ -101,21 +101,21 @@
         <h1>Печатные платы</h1>
         <p><span class="main-title__white-line"></span>производство и монтаж, поставка комплектующих, блоков и модулей
         </p>
-        <button type="button" class="main-title__link" href="#">
-          <p>Получить бесплатную консультацию</p>
-          <p>Бесплатная консультация</p>
+        <button type="button" class="main-title__link">
+          <span>Получить бесплатную консультацию</span>
+          <span>Бесплатная консультация</span>
         </button>
         <picture>
           <source media="(max-width: 767px)" srcset="img/mob-main@1x.png 1x, img/mob-main@2x.png 2x">
           <source media="(max-width: 1023px)" srcset="img/tablet-main@1x.png 1x, img/tablet-main@2x.png 2x">
           <img src="img/desct-main@1x.png" srcset="img/desct-main@2x.png 2x" alt="Промо изображение печатной платы" width="710" height="655">
         </picture>
-        <a class="page-header__scroll-link" href="#advantages">Скролл вниз</a>
+        <a class="page-header__scroll-link" href="#advantages__scroll">Скролл вниз</a>
       </section>
     </div>
   </header>
   <main class="container" style="background-image: url(img/background.png);">
-        <section class="advantages">
+        <section class="advantages" id="advantages__scroll">
           <div class="wrapper">
             <ul class="advantages__list">
               <li class="advantages__card">
@@ -219,8 +219,11 @@
         </ul>
       </div>
     </section>
-    <section class="feedback-form" style="background-image: url(img/airplane-paper.png);">
+    <section class="feedback-form">
       <div class="wrapper">
+        <div class="feedback-form__img">
+          <img src="img/airplane-paper.png" alt="Бумажный самолетик" height="200" width="300">
+        </div>
         <div class="feedback-form__wrap">
           <h3>Остались вопросы? Задайте их нам!</h3>
           <p>Мы проконсультируем Вас бесплатно</p>
