@@ -128,11 +128,14 @@
   display: block;
   position: relative;
   cursor: pointer;
+  transition: All .3s ease;
 }
 
 .popup-feedback form label:hover {
   text-decoration: underline;
+  transition: All .3s ease;
 }
+
 .popup-feedback__checkbox-input {
   position: absolute;
   opacity: 0;

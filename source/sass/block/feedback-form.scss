@@ -67,10 +67,12 @@
   display: block;
   position: relative;
   cursor: pointer;
+  transition: All .3s ease;
 }
 
 .feedback-form__btn label:hover {
   text-decoration: underline;
+  transition: All .3s ease;
 }
 
 .feedback-form__btn button {
